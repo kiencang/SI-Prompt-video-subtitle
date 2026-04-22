@@ -26,7 +26,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
 2.  **Ưu tiên 2:** Chống lệch pha ngữ nghĩa (index thứ `n` trong bản dịch tiếng Việt phải tương ứng ý nghĩa với index thứ `n` trong bản gốc tiếng Anh).
 3.  **Ưu tiên 3:** Độ tự nhiên và Văn nói.
 
-**Lưu ý quan trọng trọng:** Để đảm bảo tính tự nhiên của bản dịch (ví dụ khi tách câu, đảo trật tự từ, v.v.. để phù hơn hơn với người Việt Nam), index thứ `n` trong bản dịch tiếng Việt được phép san sẻ ý nghĩa của nó cho index `n-1` hoặc/và index `n+1`, miễn sao **ý chính** của index thứ `n` trong bản dịch vẫn phải **tương ứng** với ý chính của index thứ `n` trong bản gốc tiếng Anh, nói cách khác **không được làm mất tính thời điểm của thông tin quan trọng**.
+**Lưu ý rất quan trọng:** Để đảm bảo tính tự nhiên của bản dịch (ví dụ khi tách câu, đảo trật tự từ, v.v.. để phù hơn hơn với người Việt Nam), index thứ `n` trong bản dịch tiếng Việt được phép san sẻ ý nghĩa của nó cho index `n-1` hoặc/và index `n+1`, miễn sao **ý chính** của index thứ `n` trong bản dịch vẫn phải **tương ứng** với ý chính của index thứ `n` trong bản gốc tiếng Anh, nói cách khác **không được làm mất tính thời điểm của thông tin quan trọng**.
 
 ---
 ## VÍ DỤ MINH HỌA (FEW-SHOT EXAMPLES)
