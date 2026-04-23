@@ -136,38 +136,22 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - **Quy tắc Cứng rắn (Bảo vệ Timing - RẤT QUAN TRỌNG):** Dù bạn đảo cấu trúc thế nào, **tuyệt đối không được làm xê dịch Timing của "Thông tin đắt giá" (Punchline / Từ khóa chính / Con số)**. Nếu từ khóa xuất hiện ở index `m+2` trong bản Anh để khớp với hành động trên màn hình, nó BẮT BUỘC phải nằm ở index `m+2` trong bản Việt.
     - **Ví dụ minh họa (Kỹ thuật Đảo vế câu bảo toàn Timing):**
         - **Bản gốc (Anh):**
-            ```json[
-              {
-                "index": 41,
-                "text": "The only reason I decided to buy this,"
-              },
-              {
-                "index": 42,
-                "text": "despite the negative reviews online,"
-              },
-              {
-                "index": 43,
-                "text": "is because of its camera."
-              }
+            ```json
+            [
+              "The only reason I decided to buy this,",
+              "despite the negative reviews online,",
+              "is because of its camera."
             ]
             ```
         - **Bản dịch CHUẨN (Việt):**
-            ```json[
-              {
-                "index": 41,
-                "text": "Dù trên mạng người ta chê con máy này thậm tệ,"
-              },
-              {
-                "index": 42,
-                "text": "nhưng lý do duy nhất khiến mình quyết định chốt đơn..."
-              },
-              {
-                "index": 43,
-                "text": "...chính là vì cụm camera của nó."
-              }
+            ```json
+            [
+              "Dù trên mạng người ta chê con máy này thậm tệ,",
+              "nhưng lý do duy nhất khiến mình quyết định chốt đơn...",
+              "...chính là vì cụm camera của nó."
             ]
             ```
-        - **Giải thích:** Để câu tiếng Việt tự nhiên (cấu trúc "Dù... nhưng..."), nội dung của index 41 và 42 đã được hoán đổi và san sẻ cho nhau. Tuy nhiên, thông tin quan trọng nhất là "camera" vẫn được khóa chặt tại index 43 đúng như bản gốc để đảm bảo khớp hoàn toàn với thời điểm hình ảnh (hoặc âm thanh) xuất hiện trên video.	  
+        - **Giải thích:** Nhìn vào mảng trên, để câu tiếng Việt tự nhiên (cấu trúc "Dù... nhưng..."), nội dung của **phần tử thứ nhất** (index 0) và **phần tử thứ hai** (index 1) đã được hoán đổi và san sẻ cho nhau. Tuy nhiên, thông tin quan trọng nhất là chữ "camera" vẫn được khóa chặt tại **phần tử thứ ba** (index 2) đúng như bản gốc để đảm bảo khớp hoàn toàn với thời điểm hình ảnh (hoặc âm thanh) xuất hiện trên video.
 3. **Ưu tiên 3:** Dịch chính xác thuật ngữ chuyên ngành & chuyển đổi các đơn vị phù hợp với người Việt Nam.
 4. **Ưu tiên 4:** Mức độ tự nhiên & Văn nói (tính khẩu ngữ & sắc thái bản địa).
 5. **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
