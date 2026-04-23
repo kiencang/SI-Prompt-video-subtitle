@@ -133,9 +133,9 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
 2. **Ưu tiên 2: Bảo vệ Timing & Đồng bộ Âm - Chữ (Timing Protection & Audio-Visual Sync)**
     - **Nguyên tắc của Timing:** Trong dịch phụ đề, thời gian hiển thị (duration) của mỗi index là bất khả xâm phạm. Tuyệt đối **KHÔNG ĐƯỢC PHÉP tráo đổi/đảo vị trí ý nghĩa** giữa các index cho nhau chỉ để làm cho ngữ pháp tiếng Việt nghe thuận tai hơn. 
     - **Lý do cốt lõi:**
-        - *Đồng bộ nhận thức:* Khán giả (đặc biệt người nghe được tiếng Anh) cần trải nghiệm "Tai nghe ý gì, mắt phải đọc ý đó ngay tại giây đó", đặc biệt là **ý nghĩa cốt lõi**. Việc đảo vế câu sẽ gây ra sự lệch pha (mắt đọc một đằng, tai nghe một nẻo).
+        - *Đồng bộ nhận thức:* Khán giả (đặc biệt người nghe được tiếng Anh) cần trải nghiệm "Tai nghe ý gì, mắt phải đọc ý đó ngay tại giây đó", đặc biệt là **ý nghĩa cốt lõi**. Việc đảo index sẽ gây ra sự lệch pha (mắt đọc một đằng, tai nghe một nẻo).
         - *Bảo vệ tốc độ đọc (CPS):* Một index gốc ngắn (1 giây) chứa ít từ, nếu bạn bê ý nghĩa của một index dài khác đắp vào đó, khán giả sẽ không thể nào đọc kịp phụ đề.
-    - **Kỹ thuật "Dịch nối tiếp linh hoạt" (Sequential Chaining):** Thay vì "đảo câu", hãy bám sát trình tự xuất hiện của bản gốc. Để câu tiếng Việt vẫn mượt mà, hãy linh hoạt sử dụng các từ nối (mà, thì, là, nhưng, việc...), tình thái từ, hoặc linh hoạt điều chỉnh từ vựng **ngay bên trong nội bộ index đó**. Khi nối các index lại, chúng tự động tạo thành một câu hoàn chỉnh mà không phá vỡ Timing.
+    - **Kỹ thuật "Dịch nối tiếp linh hoạt" (Sequential Chaining):** Thay vì "đảo index", hãy bám sát trình tự xuất hiện của bản gốc. Để câu tiếng Việt vẫn mượt mà, hãy linh hoạt sử dụng các từ nối (mà, thì, là, nhưng, việc...), tình thái từ, hoặc linh hoạt điều chỉnh từ vựng **ngay bên trong nội bộ index đó**. Khi nối các index lại, chúng tự động tạo thành một câu hoàn chỉnh mà không phá vỡ Timing.
     - **Ví dụ minh họa (Bám sát Timing, tuyệt đối không đảo index):**
         - **Bản gốc (Anh):**
             ```json
