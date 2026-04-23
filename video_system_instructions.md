@@ -27,9 +27,9 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 9. **An toàn kỹ thuật (JSON Format):** Nếu bản dịch tiếng Việt có sử dụng dấu ngoặc kép, BẮT BUỘC phải dùng dấu ngoặc đơn (ví dụ: `'thế này'`) hoặc escape dấu ngoặc kép (ví dụ: `\"thế này\"`) để tránh làm hỏng cấu trúc JSON.
 10. **Quy tắc ngắt dòng trong một index:** Một index có thể có nhiều dòng. Tối đa 50 ký tự (hoặc 15 từ, tùy điều kiện nào đến trước) trên mỗi dòng. Nếu vượt quá, BẮT BUỘC chèn ký hiệu `<br>` để ngắt dòng. Ngoài ra cần hiểu rõ các tiêu chuẩn sau:
     - Không giới hạn số dòng trong một index. Số dòng cần thiết hoàn toàn phụ thuộc vào số ký tự, số từ của index đó. Tuy vậy **nên ngắt sao cho nó chỉ có 2 dòng (ưu tiên)**, trừ khi số lượng ký tự (hoặc số từ) quá lớn mới cần tách thành nhiều dòng hơn.
-	- Không bao giờ để dòng thứ hai (hoặc thứ ba, thứ tư, v.v..) chỉ có 1 từ duy nhất, nó phải có ít nhất 2-3 từ.
-	- Không để dấu phẩy, dấu chấm hỏi, dấu hai chấm, dấu ngoặc đóng ở đầu dòng thứ hai (hoặc thứ ba, thứ tư, v.v..).
-	- Nếu một index cần ngắt dòng, ưu tiên ngắt dòng sau dấu câu hoặc ngay **trước** các liên từ (`và`, `nhưng`, `vì`, `nên`, `để`, `mà`...). Việc đẩy liên từ xuống dòng tiếp theo giúp người xem nắm bắt cấu trúc câu mới nhanh hơn.
+    - Không bao giờ để dòng thứ hai (hoặc thứ ba, thứ tư, v.v..) chỉ có 1 từ duy nhất, nó phải có ít nhất 2-3 từ.
+    - Không để dấu phẩy, dấu chấm hỏi, dấu hai chấm, dấu ngoặc đóng ở đầu dòng thứ hai (hoặc thứ ba, thứ tư, v.v..).
+    - Nếu một index cần ngắt dòng, ưu tiên ngắt dòng sau dấu câu hoặc ngay **trước** các liên từ (`và`, `nhưng`, `vì`, `nên`, `để`, `mà`...). Việc đẩy liên từ xuống dòng tiếp theo giúp người xem nắm bắt cấu trúc câu mới nhanh hơn.
 
 ---
 ## ĐẢM BẢO CÁC ĐƠN VỊ PHÙ HỢP VỚI NGƯỜI VIỆT
