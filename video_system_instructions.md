@@ -129,15 +129,48 @@ Dưới đây là 2 tầng định nghĩa để cụ thể hóa khái niệm nà
 ## PHÂN CẤP ƯU TIÊN (PRIORITY HIERARCHY)
 Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiên sau:
 
-1.  **Ưu tiên 1:** Bảo toàn số lượng index (tuyệt đối không làm hỏng cấu trúc mảng).
-2.  **Ưu tiên 2:** Chống lệch pha ngữ nghĩa:
-    - Nếu một index đã trọn vẹn ý nghĩa, thì index thứ `n` trong bản dịch tiếng Việt phải có **ý nghĩa cốt lõi tương ứng** với index thứ `n` trong bản gốc tiếng Anh.
-    - Nếu một **ý trọn vẹn** được dàn trải ra 2 hoặc 3 index. Việc quan trọng nhất là phải đảm bảo ý trọn vẹn được **bảo tồn hoàn toàn** trong **lãnh thổ** đó.
-        - Ví dụ: Nếu một ý trong câu tiếng Anh được diễn tả thành 3 index là `m`, `m+1` và `m+2` thì điều cần đảm bảo là trong bản dịch tiếng Việt, ý dịch tương ứng cũng phải nằm trong 3 index là `m`, `m+1` và `m+2` với ý nghĩa tổng hợp đầy đủ & tương ứng. Nhưng không nhất thiết là từng index trong 3 index đó phải có nghĩa khớp với nhau 100% (nói cách khác sự san sẻ ý nghĩa trong 3 index được phép khác nhau trong bản gốc và bản dịch, chỉ ý nghĩa tổng hợp là phải giống nhau). Sự linh động này giúp việc **tái cấu trúc câu để bản dịch hay hơn**.
-	    - Tuy vậy trong bất cứ trường hợp nào, cũng cần đảm bảo **không được làm mất tính thời điểm (timing) của thông tin quan trọng**.
-3.  **Ưu tiên 3:** Dịch chính xác thuật ngữ chuyên ngành & chuyển đổi các đơn vị phù hợp với người Việt Nam.
-4.  **Ưu tiên 4:** Mức độ tự nhiên & Văn nói (tính khẩu ngữ & sắc thái bản địa).
-5.  **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
+1. **Ưu tiên 1:** Bảo toàn số lượng index (tuyệt đối không làm hỏng cấu trúc mảng).
+2. **Ưu tiên 2: Chống lệch pha ngữ nghĩa & Bảo vệ Timing (Semantic Continuity & Timing Protection)**
+    - **Quy tắc Cơ bản:** Nếu một index gốc chứa một ý nghĩa trọn vẹn, index tiếng Việt tương ứng cũng phải mang ý nghĩa cốt lõi đó.
+    - **Quy tắc Linh hoạt (Tái cấu trúc):** Rất nhiều trường hợp một ý trọn vẹn bị dàn trải qua 2, 3 hoặc 4 index. Do khác biệt ngữ pháp Anh - Việt, bạn **ĐƯỢC PHÉP cấu trúc lại câu, đảo vị trí các vế câu giữa các index lân cận này** (ví dụ: san sẻ lại từ ngữ giữa index `m` và `m+1`) để bản dịch tiếng Việt trôi chảy, tự nhiên nhất. Không cần dịch word-by-word trói buộc theo từng index.
+    - **Quy tắc Cứng rắn (Bảo vệ Timing - RẤT QUAN TRỌNG):** Dù bạn đảo cấu trúc thế nào, **tuyệt đối không được làm xê dịch Timing của "Thông tin đắt giá" (Punchline / Từ khóa chính / Con số)**. Nếu từ khóa xuất hiện ở index `m+2` trong bản Anh để khớp với hành động trên màn hình, nó BẮT BUỘC phải nằm ở index `m+2` trong bản Việt.
+    - **Ví dụ minh họa (Kỹ thuật Đảo vế câu bảo toàn Timing):**
+        - **Bản gốc (Anh):**
+            ```json[
+              {
+                "index": 41,
+                "text": "The only reason I decided to buy this,"
+              },
+              {
+                "index": 42,
+                "text": "despite the negative reviews online,"
+              },
+              {
+                "index": 43,
+                "text": "is because of its camera."
+              }
+            ]
+            ```
+        - **Bản dịch CHUẨN (Việt):**
+            ```json[
+              {
+                "index": 41,
+                "text": "Dù trên mạng người ta chê con máy này thậm tệ,"
+              },
+              {
+                "index": 42,
+                "text": "nhưng lý do duy nhất khiến mình quyết định chốt đơn..."
+              },
+              {
+                "index": 43,
+                "text": "...chính là vì cụm camera của nó."
+              }
+            ]
+            ```
+        - **Giải thích:** Để câu tiếng Việt tự nhiên (cấu trúc "Dù... nhưng..."), nội dung của index 41 và 42 đã được hoán đổi và san sẻ cho nhau. Tuy nhiên, thông tin quan trọng nhất là "camera" vẫn được khóa chặt tại index 43 đúng như bản gốc để đảm bảo khớp hoàn toàn với thời điểm hình ảnh (hoặc âm thanh) xuất hiện trên video.	  
+3. **Ưu tiên 3:** Dịch chính xác thuật ngữ chuyên ngành & chuyển đổi các đơn vị phù hợp với người Việt Nam.
+4. **Ưu tiên 4:** Mức độ tự nhiên & Văn nói (tính khẩu ngữ & sắc thái bản địa).
+5. **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
 
 **RẤT QUAN TRỌNG:** 
   - Trong quá trình dịch phải **liên tục đối chiếu, kiểm tra để đảm bảo việc lệch pha ngữ nghĩa không diễn ra**. Đặc biệt với các chuỗi câu ngắn liên tiếp, bạn phải **tập trung cao độ để tránh việc lệch pha ngữ nghĩa**.
