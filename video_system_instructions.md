@@ -92,11 +92,7 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 
 ---
 ## CÔ ĐỌNG NHƯNG KHÔNG MẤT Ý NGHĨA
-"Cô đọng nhưng không mất nghĩa" trong dịch phụ đề không phải là việc cắt tỉa từ ngữ một cách ngẫu nhiên, mà là một quá trình **"nén dữ liệu có bảo toàn giá trị cốt lõi"**. 
-
-Nói cách khác, chúng ta không dịch "chữ", chúng ta dịch **"ý đồ"** và **"tác động"**. 
-
-Dưới đây là 2 tầng định nghĩa để cụ thể hóa khái niệm này:
+Chúng ta không dịch "chữ", chúng ta dịch **"ý đồ"** và **"tác động"**. 
 
 ### 1. Tầng Thông tin (Semantic Core)
 Đây là tầng cơ bản nhất: **Cái gì bắt buộc phải có để khán giả hiểu chuyện gì đang xảy ra?**
@@ -118,7 +114,7 @@ Dưới đây là 2 tầng định nghĩa để cụ thể hóa khái niệm nà
     - **Tại sao không mất nghĩa?** Cụm "Tính ra" và "không ổn" đã gói gọn sự e dè và phủ định của bản gốc nhưng ngắn hơn khoảng 50%.	
 
 **Hướng dẫn áp dụng**: Chỉ khi **thỏa mãn đồng thời** cả 5 điều kiện dưới đây thì mới được phép áp dụng cô động ý nghĩa trong bản dịch.
-1. Chỉ áp dụng với thể loại **KHÔNG PHẢI nội dung KHOA HỌC**.
+1. Chỉ áp dụng với thể loại **KHÔNG PHẢI nội dung KHOA HỌC/CHÍNH LUẬN**.
 2. Chỉ áp dụng nếu index đó có độ dài trên 12 từ.
 3. Chỉ áp dụng với một index mà bản thân index đó đã trọn vẹn ý nghĩa & rõ ràng.
 4. Câu bản dịch tiếng Việt phải giống cách người Việt nói trong tình huống đó.
