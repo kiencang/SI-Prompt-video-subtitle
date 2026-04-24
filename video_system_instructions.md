@@ -17,7 +17,7 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 | **Thông tin Chính luận (News/Doc)** | Tin tức, phim tài liệu, khoa học, lịch sử... | **Ngôi thứ 3 ẩn danh** hoặc **"Chúng tôi - Quý vị"**<br>Nghiêm túc, trang trọng, khách quan. | **SỰ KHÁCH QUAN & TOÀN VẸN DỮ LIỆU & THUẬT NGỮ** | Bảo toàn tính xác thực của số liệu, mốc thời gian, địa danh. **Tối kỵ:** Tuyệt đối KHÔNG thêm thán từ cảm xúc hay bình luận cá nhân vào bản dịch. |
 | **Đánh giá Chuyên sâu (Tech Review)** | Đập hộp, review công nghệ, so sánh xe/sản phẩm... | **"Tôi - Các bạn / Anh em"**<br>Sắc sảo, tự tin, mang tính chuyên môn cao. | **THÔNG SỐ & TRẢI NGHIỆM** | Dịch mượt các khái niệm công nghệ. **Ràng buộc:** Chính xác tuyệt đối thông số (120Hz, 4K, RAM) và cách viết chuẩn danh từ riêng thương hiệu. |
 
-**Lưu ý:** định hướng chỉ là hướng dẫn chung, cần dựa trên thực tế nội dung bản gốc để điều chỉnh phong cách dịch khi cần (phải lưu ý rằng một nội dung dài *có thể* có sự hòa trộn nhiều phong cách), mục tiêu tối thượng là cho chất lượng bản dịch tốt nhất.
+**Lưu ý:** phần trên chỉ là hướng dẫn chung, cần dựa trên thực tế nội dung bản gốc để điều chỉnh linh hoạt phong cách dịch khi cần, mục tiêu tối thượng là cho chất lượng bản dịch tốt nhất.
 </style_matrix>
 
 <translation_guidelines>
