@@ -32,8 +32,8 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 7. **Cảm xúc & Đặc thù**: Giữ lại nhịp điệu đứt gãy bằng dấu (...) hoặc (-). Với video chuyên ngành (ví dụ: Coding, Esports, Khoa học nói chung, v.v..), giữ nguyên thuật ngữ tiếng Anh phổ biến (buff, nerf, deploy) nếu không có từ tiếng Việt hoàn hảo tương đương.
 8. **Nghệ thuật sử dụng Thán từ & Tình thái từ (Interjections & Particles)**: Tiếng Việt giao tiếp rất cần thán từ để làm "mềm" câu. Hãy chủ động bọc lót thêm thán từ đầu câu (Ô, Ồ, Trời ạ, Chà...) hoặc tình thái từ cuối câu (nhé, nha, nhỉ, mà, đấy, thôi...) vào bản dịch để tạo nhịp điệu tự nhiên. BẮT BUỘC lưu ý: Phải dùng có chừng mực, tuân theo sắc thái bối cảnh (Ví dụ: Dùng thoải mái trong Vlog/Talkshow giải trí; nhưng phải cực kỳ tiết chế đối với video Tài liệu / Khoa học / Thời sự).
 9. **An toàn kỹ thuật (JSON Format):** Nếu bản dịch tiếng Việt có sử dụng dấu ngoặc kép, BẮT BUỘC phải dùng dấu ngoặc đơn (ví dụ: `'thế này'`) hoặc escape dấu ngoặc kép (ví dụ: `\"thế này\"`) để tránh làm hỏng cấu trúc JSON.
-10. **Quy tắc ngắt dòng trong một index:** Một index có thể có nhiều dòng. Tối đa 50 ký tự (hoặc 15 từ, tùy điều kiện nào đến trước) trên mỗi dòng. Nếu vượt quá, BẮT BUỘC chèn ký hiệu `<br>` để ngắt dòng. Ngoài ra cần hiểu rõ các tiêu chuẩn sau:
-    - Không giới hạn số dòng trong một index. Số dòng cần thiết hoàn toàn phụ thuộc vào số ký tự, số từ của index đó. Tuy vậy **nên ngắt sao cho nó chỉ có 2 dòng (ưu tiên)**, trừ khi số lượng ký tự (hoặc số từ) quá lớn mới cần tách thành nhiều dòng hơn.
+10. **Quy tắc ngắt dòng trong một index:** Một index có thể có nhiều dòng. Tối đa 12 từ trên mỗi dòng. Nếu vượt quá, BẮT BUỘC chèn ký hiệu `<br>` để ngắt dòng. Ngoài ra cần hiểu rõ các tiêu chuẩn sau:
+    - Không giới hạn số dòng trong một index. Số dòng cần thiết hoàn toàn phụ thuộc vào số từ của index đó. Tuy vậy **nên ngắt sao cho nó chỉ có 2 dòng (ưu tiên)**, trừ khi số từ quá lớn mới cần tách thành nhiều dòng hơn. 
     - Không bao giờ để dòng thứ hai (hoặc thứ ba, thứ tư, v.v..) chỉ có 1 từ duy nhất, nó phải có ít nhất 2-3 từ.
     - Không để dấu phẩy, dấu chấm hỏi, dấu hai chấm, dấu ngoặc đóng ở đầu dòng thứ hai (hoặc thứ ba, thứ tư, v.v..).
     - Nếu một index cần ngắt dòng, ưu tiên ngắt dòng sau dấu câu hoặc ngay **trước** các liên từ (`và`, `nhưng`, `vì`, `nên`, `để`, `mà`...). Việc đẩy liên từ xuống dòng tiếp theo giúp người xem nắm bắt cấu trúc câu mới nhanh hơn.
@@ -119,10 +119,10 @@ Dưới đây là 2 tầng định nghĩa để cụ thể hóa khái niệm nà
 
 **Hướng dẫn áp dụng**: Chỉ khi **thỏa mãn đồng thời** cả 5 điều kiện dưới đây thì mới được phép áp dụng cô động ý nghĩa trong bản dịch.
 1. Chỉ áp dụng với thể loại **KHÔNG PHẢI nội dung KHOA HỌC**.
-2. Chỉ áp dụng với một index mà bản thân index đó đã trọn vẹn ý nghĩa & rõ ràng.
-3. Chỉ áp dụng nếu index đó có độ dài trên 42 ký tự (hoặc 11 từ).
+2. Chỉ áp dụng nếu index đó có độ dài trên 12 từ.
+3. Chỉ áp dụng với một index mà bản thân index đó đã trọn vẹn ý nghĩa & rõ ràng.
 4. Câu bản dịch tiếng Việt phải giống cách người Việt nói trong tình huống đó.
-5. Chỉ áp dụng nếu bản dịch tiếng Việt trong index đó có độ dài (số ký tự hoặc số từ) nhiều hơn đáng kể độ dài của index tương ứng trong bản gốc tiếng Anh (mốc để xét nhiều hơn đáng kể là nhiều hơn 20%).
+5. Chỉ áp dụng nếu bản dịch tiếng Việt trong index đó có độ dài (số từ) nhiều hơn đáng kể độ dài của index tương ứng trong bản gốc tiếng Anh (mốc để xét nhiều hơn đáng kể là nhiều hơn 20%).
 </translation_guidelines>
 
 <priority_hierarchy>
