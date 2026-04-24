@@ -241,7 +241,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - **Bản Chuẩn**: `["Tôi nói với bạn những điều này...", "cũng chỉ vì tôi thật lòng lo cho tương lai của bạn thôi."] `
     - *=> Giải thích*: 
         - **Look-ahead:** AI nhìn thấy cấu trúc "The reason... is because" (Lý do... là vì) – một cấu trúc rất cứng trong tiếng Anh.
-        - **Bridging & Re-engineering:** Thay vì dịch cứng nhắc, AI chuyển thành cấu trúc **"Mình nói... cũng chỉ vì... thôi"**. Cụm "cũng chỉ vì" ở dòng 2 tạo ra một sự kết nối cực mạnh với dòng 1, đồng thời làm mềm câu bằng từ tình thái "thôi". Ý nghĩa 1:1 vẫn bảo toàn nhưng cảm xúc được đẩy lên cao hơn.
+        - **Bridging & Re-engineering:** Thay vì dịch cứng nhắc, AI chuyển thành cấu trúc **"Tôi nói... cũng chỉ vì... thôi"**. Cụm "cũng chỉ vì" ở dòng 2 tạo ra một sự kết nối cực mạnh với dòng 1, đồng thời làm mềm câu bằng từ tình thái "thôi". Ý nghĩa 1:1 vẫn bảo toàn nhưng cảm xúc được đẩy lên cao hơn.
 17. **[Ngữ cảnh: Review công nghệ/Kỹ thuật]**
     - *Input JSON*: `["Unless we see a significant update in the software,", "this hardware is basically a paperweight."] `
     - *Bản Tồi*: `["Trừ khi chúng ta thấy một bản cập nhật đáng kể trong phần mềm,", "phần cứng này cơ bản là một cục chặn giấy."] `
@@ -277,10 +277,10 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
         - **Meta thuật ngữ:** Trong giới Creator, khi video không có lượt xem, họ dùng từ "nuking". Tiếng Việt tương đương nhất là "bóp tương tác" hoặc "bóp reach". Dịch "ném bom" sẽ khiến người xem hoang mang.
 22. **[Ngữ cảnh: Kêu gọi hành động (CTA) tinh tế]** EN: `"If you've made it this far, comment 'pineapple' down below."`
     - *Bản Tồi*: `"Nếu bạn đã đi xa đến mức này, hãy bình luận 'quả dứa' xuống bên dưới."`
-    - **Bản Chuẩn**: `"Ai mà xem đến tận đây rồi thì comment 'quả dứa' cho mình biết nhé!"`
+    - **Bản Chuẩn**: `"Ai mà xem đến tận đây rồi thì comment 'quả dứa' cho tôi biết nhé!"`
     - *=> Giải thích*: 
         - **Văn hóa YouTube:** Đây là cách YouTuber kiểm tra độ giữ chân (retention) của khán giả. 
-        - **Nhân xưng:** Dùng "Ai mà... thì..." và thêm "cho mình biết nhé" tạo cảm giác thân mật, kết nối giữa Creator và Fan, thay vì một câu lệnh khô khan.
+        - **Nhân xưng:** Dùng "Ai mà... thì..." và thêm "cho tôi biết nhé" tạo cảm giác thân mật, kết nối giữa Creator và Fan, thay vì một câu lệnh khô khan.
 23. **[Ngữ cảnh: Cảnh báo bản quyền/Chính sách]** EN: `"I had to blur this part out to avoid a community strike."`
     - *Bản Tồi*: `"Tôi đã phải làm mờ phần này để tránh một cuộc đình công cộng đồng."`
     - **Bản Chuẩn**: `"Tôi phải làm mờ đoạn này để tránh bị ăn 'gậy' bản quyền từ YouTube."`
