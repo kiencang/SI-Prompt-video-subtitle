@@ -235,22 +235,56 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - *Bản Tồi*: `["Cơ học lượng tử là một lý thuyết cơ bản", "đó mô tả các tính chất vật lý của tự nhiên", "ở quy mô của các nguyên tử."] `
     - **Bản Chuẩn**: `["Cơ học lượng tử là một lý thuyết nền tảng", "giúp mô tả các tính chất vật lý của tự nhiên", "ở cấp độ nguyên tử."] `
     - *=> Giải thích*: Từ "that" nối mệnh đề quan hệ, khi đưa sang tiếng Việt có thể lược bỏ hoặc dịch là "giúp mô tả", thay vì bó cứng "đó mô tả".
+16. **[Ngữ cảnh: Lời khuyên/Động lực]**
+    - *Input JSON*: `["The reason why I'm telling you all of this,", "is because I truly care about your future."] `
+    - *Bản Tồi*: `["Lý do tại sao tôi nói với bạn tất cả những điều này,", "là bởi vì tôi thực sự quan tâm đến tương lai của bạn."] `
+    - **Bản Chuẩn**: `["Tôi nói với bạn những điều này...", "cũng chỉ vì tôi thật lòng lo cho tương lai của bạn thôi."] `
+    - *=> Giải thích*: 
+        - **Look-ahead:** AI nhìn thấy cấu trúc "The reason... is because" (Lý do... là vì) – một cấu trúc rất cứng trong tiếng Anh.
+        - **Bridging & Re-engineering:** Thay vì dịch cứng nhắc, AI chuyển thành cấu trúc **"Mình nói... cũng chỉ vì... thôi"**. Cụm "cũng chỉ vì" ở dòng 2 tạo ra một sự kết nối cực mạnh với dòng 1, đồng thời làm mềm câu bằng từ tình thái "thôi". Ý nghĩa 1:1 vẫn bảo toàn nhưng cảm xúc được đẩy lên cao hơn.
+17. **[Ngữ cảnh: Review công nghệ/Kỹ thuật]**
+    - *Input JSON*: `["Unless we see a significant update in the software,", "this hardware is basically a paperweight."] `
+    - *Bản Tồi*: `["Trừ khi chúng ta thấy một bản cập nhật đáng kể trong phần mềm,", "phần cứng này cơ bản là một cục chặn giấy."] `
+    - **Bản Chuẩn**: `["Nếu phần mềm không có bản cập nhật nào đáng kể,", "thì phần cứng này chẳng khác gì một cục chặn giấy cả."] `
+    - *=> Giải thích*:
+        - **Syntactic Re-engineering:** Cấu trúc "Unless" (Trừ khi) của tiếng Anh thường khiến câu tiếng Việt bị ngược hoặc khô. AI đã chủ động chuyển sang **"Nếu... không... thì..."**. 
+        - **Bridging:** Từ "thì" ở đầu dòng 2 là một "cây cầu" ngữ pháp kinh điển trong tiếng Việt, giúp người xem bắt nhịp ngay lập tức với hệ quả của dòng 1. "Chẳng khác gì... cả" được dùng để thay thế cho "basically" một cách tự nhiên hơn.
+18. **[Ngữ cảnh: Phim tài liệu/Khoa học]**
+    - *Input JSON*: `["It is not just about the speed of the particles,", "but also the way they interact with each other", "within the magnetic field."] `
+    - *Bản Tồi*: `["Nó không chỉ là về tốc độ của các hạt,", "mà còn là cách chúng tương tác với nhau", "trong từ trường."] `
+    - **Bản Chuẩn**: `["Vấn đề không chỉ nằm ở tốc độ của các hạt,", "mà còn là cách chúng tương tác lẫn nhau", "ngay bên trong môi trường từ trường."] `
+    - *=> Giải thích*:
+        - **Semantic Bridging:** Cụm "It is not just about" thường bị AI dịch là "Nó không chỉ là về" (rất dở). AI ở đây đã hiểu bối cảnh khoa học và dùng **"Vấn đề không chỉ nằm ở..."**.
+        - **Look-ahead:** AI nhận diện được chuỗi liệt kê 3 tầng. Dòng 2 dùng "tương tác lẫn nhau" để tạo nhịp nối, và dòng 3 dùng "ngay bên trong" để nhấn mạnh vị trí không gian mà dòng 2 đang nhắc tới. Việc thêm từ "môi trường" vào dòng 3 giúp câu văn khoa học trở nên đầy đặn, chuyên nghiệp hơn dù bản gốc không có từ "environment".
 
 ### Nhóm 5: Thẻ Âm thanh & Mẫu câu YouTube
-16. **[Ngữ cảnh: Talkshow/Phỏng vấn]** EN: "(laughs) I didn't see that coming!"
-    - *Bản Tồi*: "(cười) Tôi không thấy điều đó đến!"
-    - **Bản Chuẩn**: "(cười lớn) Vụ này thì mình không lường trước được luôn!"
-17. **[Ngữ cảnh: Bổ sung Bối cảnh]** EN: "[Upbeat electronic music plays]"
-    - *Bản Tồi*: "[Âm nhạc điện tử nhịp độ cao chơi]"
-    - **Bản Chuẩn**: "[Nhạc nền điện tử sôi động]"
-18. **[Ngữ cảnh: Outro Youtube]** EN: "Smash that like button and subscribe!"
-    - *Bản Tồi*: "Đập vỡ nút thích đó và đăng ký!"
-    - **Bản Chuẩn**: "Nhớ nhấn nút Like và Subscribe cho kênh mình nhé!"
-19. **[Ngữ cảnh: Cảnh báo/Chơi game]** EN: "Whatever you do, don't press that."
-    - *Bản Tồi*: "Bất cứ điều gì bạn làm, đừng nhấn điều đó."
-    - **Bản Chuẩn**: "Dù có làm gì đi nữa thì cũng đừng ấn vào nút đó nha."
-20. **[Ngữ cảnh: Lời khuyên cuối video]** EN: "At the end of the day, it's your choice."
-    - *Bản Tồi*: "Vào cuối ngày, đó là sự lựa chọn của bạn."
-    - **Bản Chuẩn**: "Suy cho cùng thì, quyền quyết định vẫn là ở bạn."
+19. **[Ngữ cảnh: Reaction/Hài hước]** EN: `"[Scoffs] That's cap, and you know it!"`
+    - *Bản Tồi*: `"[Cười nhạt] Đó là cái mũ, và bạn biết điều đó!"`
+    - **Bản Chuẩn**: `"[Cười khẩy] Xạo vừa thôi, ai mà chẳng biết!"`
+    - *=> Giải thích*: 
+        - **Thẻ âm thanh:** "[Scoffs]" không chỉ là cười, mà là cười khinh miệt/khẩy. 
+        - **Tiếng lóng:** "Cap" là tiếng lóng YouTube/Gen Z chỉ sự nói dối. Dịch là "cái mũ" là thảm họa. AI cần biết dùng từ "Xạo" hoặc "Chém gió" để khớp vibe.
+20. **[Ngữ cảnh: Vlog - Xử lý đa thẻ âm thanh]** EN: `"[Keyboard clicking] [Deep sigh] Okay, let's get into the drama."`
+    - *Bản Tồi*: `"[Tiếng gõ bàn phím] [Thở dài sâu] Được rồi, hãy đi vào bộ phim truyền hình."`
+    - **Bản Chuẩn**: `"[Tiếng gõ phím] [Thở dài] Được rồi, bắt đầu hóng biến thôi nào."`
+    - *=> Giải thích*: 
+        - **Bản địa hóa:** "Drama" trên YouTube không phải là phim truyền hình, mà là "biến", "phốt", "chuyện lùm xùm". 
+        - **Độ gọn:** "Thở dài sâu" nghe rất y khoa, chỉ cần "[Thở dài]" là đủ truyền tải cảm xúc trong phụ đề.
+21. **[Ngữ cảnh: Gaming/Streamer - Meta YouTube]** EN: `"The algorithm is absolutely nuking this video."`
+    - *Bản Tồi*: `"Thuật toán đang ném bom nguyên tử video này."`
+    - **Bản Chuẩn**: `"Thuật toán YouTube đang 'bóp' tương tác của video này kinh khủng luôn."`
+    - *=> Giải thích*: 
+        - **Meta thuật ngữ:** Trong giới Creator, khi video không có lượt xem, họ dùng từ "nuking". Tiếng Việt tương đương nhất là "bóp tương tác" hoặc "bóp reach". Dịch "ném bom" sẽ khiến người xem hoang mang.
+22. **[Ngữ cảnh: Kêu gọi hành động (CTA) tinh tế]** EN: `"If you've made it this far, comment 'pineapple' down below."`
+    - *Bản Tồi*: `"Nếu bạn đã đi xa đến mức này, hãy bình luận 'quả dứa' xuống bên dưới."`
+    - **Bản Chuẩn**: `"Ai mà xem đến tận đây rồi thì comment 'quả dứa' cho mình biết nhé!"`
+    - *=> Giải thích*: 
+        - **Văn hóa YouTube:** Đây là cách YouTuber kiểm tra độ giữ chân (retention) của khán giả. 
+        - **Nhân xưng:** Dùng "Ai mà... thì..." và thêm "cho mình biết nhé" tạo cảm giác thân mật, kết nối giữa Creator và Fan, thay vì một câu lệnh khô khan.
+23. **[Ngữ cảnh: Cảnh báo bản quyền/Chính sách]** EN: `"I had to blur this part out to avoid a community strike."`
+    - *Bản Tồi*: `"Tôi đã phải làm mờ phần này để tránh một cuộc đình công cộng đồng."`
+    - **Bản Chuẩn**: `"Tôi phải làm mờ đoạn này để tránh bị ăn 'gậy' bản quyền từ YouTube."`
+    - *=> Giải thích*: 
+        - **Thuật ngữ đặc thù:** "Community strike" hay "Copyright strike" trong giới YouTube Việt Nam gọi là "ăn gậy". AI dịch là "đình công" (nghĩa gốc của strike) là sai hoàn toàn bối cảnh.
 </examples>
 </system_instructions>
