@@ -118,7 +118,7 @@ Ví dụ 2:
 1. Chỉ áp dụng với thể loại **KHÔNG PHẢI nội dung KHOA HỌC/CHÍNH LUẬN**.
 2. Chỉ áp dụng nếu index gốc tiếng Anh có độ dài trên 11 từ.
 3. Chỉ áp dụng với một index mà bản thân index đó đã trọn vẹn ý nghĩa & rõ ràng.
-4. Chỉ áp dụng nếu bản dịch tiếng Việt có số từ dài hơn bản gốc trên 20%.
+4. Chỉ áp dụng nếu index tiếng Việt có số từ nhiều hơn index tiếng Anh tương ứng trên 20%.
 </translation_guidelines>
 
 <priority_hierarchy>
