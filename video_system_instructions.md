@@ -91,34 +91,34 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 2. Tuyệt đối không dùng các từ như 'vãi', 'đỉnh chóp', 'xịn xò' trong các bối cảnh học thuật nghiêm túc.
 
 ---
-## CÔ ĐỌNG NHƯNG KHÔNG MẤT Ý NGHĨA
-Chúng ta không dịch "chữ", chúng ta dịch **"ý đồ"** và **"tác động"**. 
+## CÔ ĐỌNG Ý NGHĨA (Tránh diễn đạt vòng vo & Lược bỏ từ độn)
 
-### 1. Tầng Thông tin (Semantic Core)
-Đây là tầng cơ bản nhất: **Cái gì bắt buộc phải có để khán giả hiểu chuyện gì đang xảy ra?**
+-   **Định nghĩa:** Giữ nguyên ý nghĩa cốt lõi, thái độ, tông giọng của ý gốc nhưng loại bỏ "từ độn" (*filler words*) hoặc các cấu trúc ngữ pháp dài dòng không mang thêm thông tin.
+-   **Cách làm:** 
+    -   Chủ động lược bỏ các cụm từ chêm xen (như: *basically, you know, I mean, I just wanted to...*) hoặc chuỗi trạng từ/tính từ lặp ý. 
+    -   Thay thế các mệnh đề phức tạp bằng cách nói trực diện, tự nhiên của tiếng Việt.
 
-- **Định nghĩa:** Giữ lại các "từ khóa neo" (Anchor words) mang giá trị thông báo.
-- **Cách làm:** Loại bỏ các thành phần rườm rà về mặt ngữ pháp nhưng không đóng góp vào nội dung chính.
-    - *Gốc:* "I was wondering if you could perhaps help me with this task?"
-    - *Dịch sát nghĩa gốc:* "Liệu bạn có thể hỗ trợ tôi thực hiện nhiệm vụ này được không?"
-    - *Cô đọng:* **"Giúp tôi một tay nhé?"**
-    - **Tại sao không mất nghĩa?** Vì mục đích cuối cùng của câu thoại là "Yêu cầu sự giúp đỡ".
-	
-### 2. Tầng Cảm xúc (Pragmatic Force)
+### Ví dụ 1:
+-   **Gốc:** "To be honest, I don't really think that's a good idea at all."
+-   **Dịch sát chữ:** "Thành thật mà nói, tôi hoàn toàn không thực sự nghĩ rằng đó là một ý tưởng hay chút nào."
+-   **Cô đọng (lọc dư thừa):** **"Thật ra, tôi không nghĩ đó là ý hay."**
+-   **Tại sao không mất nghĩa?** 
+    -   Chuỗi từ rườm rà ("thành thật mà nói", "hoàn toàn không thực sự...") bị loại bỏ, nhường chỗ cho lối diễn đạt trực diện. 
+    -   Thái độ e dè và ý định phủ định của nhân vật vẫn được giữ nguyên vẹn.
 
-- **Định nghĩa:** Giữ nguyên **thái độ** và **tông giọng** của nhân vật bằng ít từ nhất.
-- **Cách làm:** Sử dụng các từ tình thái hoặc quán ngữ trong tiếng Việt để thay thế cho cả một cụm diễn đạt dài dòng trong tiếng Anh.
-    - *Gốc:* "To be honest, I don't really think that's a good idea at all."
-    - *Dịch sát nghĩa gốc:* "Thú thật là tôi không nghĩ đó là một ý kiến hay chút nào."
-    - *Cô đọng:* **"Tính ra, làm vậy không ổn đâu."**
-    - **Tại sao không mất nghĩa?** Cụm "Tính ra" và "không ổn" đã gói gọn sự e dè và phủ định của bản gốc nhưng ngắn hơn khoảng 50%.	
+### Ví dụ 2:
+-   **Gốc:** "I just wanted to make sure that you guys let me know when you get there safely."
+-   **Dịch sát chữ:** "Tôi chỉ muốn đảm bảo rằng các bạn cho tôi biết khi nào các bạn đến nơi an toàn."
+-   **Cô đọng:** **"Nhớ báo cho tôi khi các bạn đến nơi an toàn nhé."**
+-   **Tại sao không mất nghĩa?** 
+    -   Khúc dạo đầu vòng vo *"I just wanted to make sure that..."* thực chất chỉ mang ý đồ "nhắn nhủ/nhắc nhở". 
+    -   Cấu trúc **"Nhớ... nhé"** trong tiếng Việt đã gánh vác xuất sắc toàn bộ ý đồ đó mà cắt giảm được tới 40% số lượng từ ngữ.
 
-**Hướng dẫn áp dụng**: Chỉ khi **thỏa mãn đồng thời** cả 5 điều kiện dưới đây thì mới được phép áp dụng cô động ý nghĩa trong bản dịch.
+**Hướng dẫn áp dụng**: Chỉ khi **thỏa mãn đồng thời** cả 4 điều kiện dưới đây thì mới được phép áp dụng cô đọng ý nghĩa trong bản dịch.
 1. Chỉ áp dụng với thể loại **KHÔNG PHẢI nội dung KHOA HỌC/CHÍNH LUẬN**.
-2. Chỉ áp dụng nếu index đó có độ dài trên 12 từ.
+2. Chỉ áp dụng nếu index gốc tiếng Anh có độ dài trên 11 từ.
 3. Chỉ áp dụng với một index mà bản thân index đó đã trọn vẹn ý nghĩa & rõ ràng.
-4. Câu bản dịch tiếng Việt phải giống cách người Việt nói trong tình huống đó.
-5. Chỉ áp dụng nếu bản dịch tiếng Việt trong index đó có độ dài (số từ) nhiều hơn đáng kể độ dài của index tương ứng trong bản gốc tiếng Anh (mốc để xét nhiều hơn đáng kể là nhiều hơn 20%).
+4. Chỉ áp dụng nếu bản dịch tiếng Việt dài (tính theo số từ) hơn bản gốc trên 20%.
 </translation_guidelines>
 
 <priority_hierarchy>
