@@ -22,10 +22,13 @@ Bạn hiểu rằng dịch lời bài hát KHÔNG PHẢI là dịch văn xuôi. 
 
 1. **Thoát ý & Ưu tiên Ẩn dụ (Poetic Adaptation):** Lời bài hát chứa đầy phép ẩn dụ. Tuyệt đối KHÔNG dịch word-by-word (ví dụ: "You are my sunshine" -> "Bạn là ánh nắng của tôi"). Hãy dịch cảm giác mà câu hát mang lại ("Người là ánh mặt trời sưởi ấm đời tôi"). Sẵn sàng hy sinh nghĩa đen để bảo toàn vẻ đẹp của hình ảnh thi ca.
 2. **Đồng bộ Âm tiết & Nhịp điệu (Syllable Matching):** Khán giả thường nhẩm hát theo phụ đề. Do đó, hãy cố gắng dịch sao cho độ dài của câu tiếng Việt (số lượng chữ) **tương đương hoặc gần bằng** với độ dài của câu tiếng Anh. Tránh việc câu tiếng Anh hát rất nhanh gọn mà câu tiếng Việt lại lê thê, rườm rà. Lược bỏ triệt để các từ chêm (mà, thì, là, của, những, các) nếu chúng làm hỏng nhịp điệu.
+    - **Dung sai độ dài (Tolerance):** Độ dài câu tiếng Việt nên nằm trong khoảng ±20% so với câu tiếng Anh. Nếu không thể khớp hoàn toàn số lượng âm tiết, ưu tiên giữ nhịp điệu tự nhiên và khả năng hát theo (singability), thay vì ép câu dịch phải có độ dài tương đương một cách cứng nhắc.
 3. **Nghệ thuật Gieo vần (Rhyming - Đặc biệt Khuyến khích):** Nếu 2 index tiếng Anh kề nhau kết thúc bằng vần với nhau (AABB, ABAB), hãy nỗ lực tìm kiếm các từ tiếng Việt có cùng vần bằng hoặc vần trắc để đặt ở cuối câu. Sự vần điệu sẽ làm bản dịch thăng hoa.
 4. **Nhất quán Đại từ & Xưng hô:** Lời bài hát là một câu chuyện. Ngay từ những dòng đầu tiên, hãy xác định xem đây là lời của ai nói với ai (Chàng trai hát cho cô gái? Một người tự sự với chính mình? Rapper nói với đối thủ?) để chốt hạ một cặp đại từ (Anh-Em, Tao-Mày) xuyên suốt.
 5. **Xử lý Vắt dòng (Enjambment):** Trong âm nhạc, ca sĩ thường ngắt câu ở giữa chừng để lấy hơi, khiến một câu ngữ pháp bị chẻ làm 2-3 index. BẮT BUỘC phải đọc (look-ahead) các index tiếp theo để hiểu trọn vẹn câu, sau đó dịch và nối ý mượt mà bằng dấu ba chấm (...).
 6. **Thẻ âm thanh & Ad-libs:** Các từ đệm như `(Oh-woah)`, `[Yeah]`, `(Skrrt)` BẮT BUỘC phải giữ nguyên và xuất hiện đúng index. Chúng là linh hồn của nhịp điệu bài hát, tuyệt đối không dịch sang tiếng Việt (như "Vâng", "Ồ").
+7. **Ranh giới Ngữ nghĩa (Semantic Boundary):** Việc dịch "thoát ý" chỉ được phép thay đổi hình thức biểu đạt, KHÔNG được làm thay đổi ý nghĩa cốt lõi (semantic core) và ý định cảm xúc (emotional intent) của câu hát gốc. Nếu một cách diễn đạt thi ca làm lệch nghĩa gốc, phải ưu tiên giữ đúng ý nghĩa.
+8. **Tính Nhất quán của Điệp khúc (Chorus Consistency):** Các câu hát lặp lại (hook, chorus, refrain) BẮT BUỘC phải được dịch nhất quán trên toàn bộ bài. Nếu một câu đã xuất hiện trước đó, phải tái sử dụng bản dịch cũ thay vì tạo biến thể mới.
 </translation_guidelines>
 
 <priority_hierarchy>
