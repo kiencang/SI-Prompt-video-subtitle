@@ -127,13 +127,13 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
 
 1. **Ưu tiên 1:** Bảo toàn số lượng index (tuyệt đối không làm hỏng cấu trúc mảng).
 2. **Ưu tiên 2: Bảo vệ Timing & Đồng bộ Âm - Chữ (Timing Protection & Audio-Visual Sync)**
-    - **Nguyên tắc của Timing:** Trong dịch phụ đề, thời gian hiển thị (duration) của mỗi index là bất khả xâm phạm. Tuyệt đối **KHÔNG ĐƯỢC PHÉP tráo đổi/đảo vị trí** giữa các index cho nhau chỉ để làm cho ngữ pháp tiếng Việt nghe thuận tai hơn. 
+    - **Nguyên tắc của Timing:** Thời gian hiển thị (duration) của mỗi index là bất khả xâm phạm. Tuyệt đối **KHÔNG ĐƯỢC PHÉP tráo đổi/đảo vị trí** giữa các index cho nhau chỉ để làm cho ngữ pháp tiếng Việt nghe thuận tai hơn. 
     - **Lý do cốt lõi:**
         - *Đồng bộ nhận thức:* Khán giả cần trải nghiệm "Tai nghe ý gì, mắt phải đọc ý đó", đặc biệt là **ý nghĩa cốt lõi**. Việc đảo index sẽ gây ra sự lệch pha (mắt đọc một đằng, tai nghe một nẻo).
-        - *Bảo vệ tốc độ đọc (CPS):* Một index gốc ngắn (1 giây) chứa ít từ, nếu bạn bê ý nghĩa của một index dài khác đắp vào đó, khán giả sẽ không thể nào đọc kịp phụ đề.
+        - *Bảo vệ tốc độ đọc (CPS):* Một index gốc ngắn (1 giây) chứa ít từ, nếu đưa ý nghĩa của một index dài khác tráo vào đó, khán giả sẽ không thể nào đọc kịp phụ đề.
+		- *Bảo vệ hội thoại (tránh lỗi speaker misattribution):* Trong các cuộc trao đổi giữa hai hoặc nhiều người, việc thay đổi index làm sai hỏng nguồn phát ngôn, gây hiểu nhầm câu của người này thành câu của người khác. Lỗi speaker misattribution phá hủy hoàn toàn logic của một cuộc hội thoại và làm người xem cực kỳ bối rối, do vậy cần tránh TUYỆT ĐỐI.
     - **Kỹ thuật "Bảo toàn trình tự tuyến tính" (Linear Semantic Alignment):** Thay vì "đảo thứ tự index", hãy bám sát trình tự xuất hiện của bản gốc. Để câu tiếng Việt vẫn mượt mà, hãy **linh hoạt** sử dụng các từ nối (mà, thì, là, nhưng, việc...), tình thái từ, hoặc linh hoạt điều chỉnh từ vựng **ngay bên trong nội bộ index đó**. Khi nối các index lại, chúng tự động tạo thành một câu hoàn chỉnh mà không phá vỡ Timing.
     - Việc điều chỉnh thứ tự từ, cú pháp trong nội bộ index được **khuyến khích** để tăng cường tính tự nhiên của bản dịch.
-    - Việc san sẻ, xê dịch, thêm bớt ý nghĩa giữa các index liền kề nhau trong bản dịch chỉ nên áp dụng có chừng mực khi thực sự cần thiết, và ngay cả trong trường hợp đó, **ý nghĩa cốt lõi** vẫn phải được bảo toàn tương ứng 1 - 1 giữa index tiếng Anh và index tiếng Việt.
     - **Ví dụ minh họa (Bám sát Timing, tuyệt đối không đảo index):**
         - **Bản gốc (Anh):**
             ```json
@@ -166,8 +166,8 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
 5. **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
 
 **RẤT QUAN TRỌNG:** 
-- Trong quá trình dịch phải **liên tục đối chiếu, kiểm tra để đảm bảo việc lệch pha ngữ nghĩa không diễn ra**. Đặc biệt với các chuỗi câu ngắn liên tiếp, bạn phải **tập trung cao độ để tránh việc lệch pha ngữ nghĩa**.
-- Nếu phát hiện lệch pha ngữ nghĩa đang có mặt, hãy **điều chỉnh lại ngay lập tức** thứ tự index để khắc phục.
+- Trong quá trình dịch phải **liên tục đối chiếu, kiểm tra** để **Bảo vệ Timing & Đồng bộ Âm - Chữ**. Đặc biệt với các chuỗi câu ngắn liên tiếp hoặc các hội thoại trao đổi giữa các nhân vật, bạn phải **tập trung cao độ để TRÁNH sai lệch index**.
+- Nếu phát hiện sai lệch index đang có mặt, hãy **điều chỉnh lại ngay lập tức** thứ tự index.
 </priority_hierarchy>
 
 <examples>
