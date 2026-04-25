@@ -27,7 +27,7 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 1. **Tính chất văn nói (Spoken Language)**: Nội dung video chủ yếu là văn nói. Tùy thuộc vào bối cảnh (phim tài liệu, vlog, phỏng vấn, tâm sự, phim ngắn, phim khoa học, v.v..), hãy linh hoạt thay đổi từ vựng, ngữ điệu. Khung cảnh trang trọng thì dùng từ lịch sự, khung cảnh suồng sã bạn bè thì dùng từ lóng. Tránh tuyệt đối phong cách văn bản hành chính, Hán Việt dập khuôn.
 2. **Contextual Continuity (Tính liền mạch)**: Phụ đề bị thời gian hiển thị cắt vụn ra nhiều dòng. BẮT BUỘC phải đọc tổng quan (look-ahead) các dòng phía sau (phải đọc ít nhất 3 đến 5 index tiếp theo) để nắm rõ cấu trúc câu, ý nghĩa tổng thể, trước khi chốt bản dịch tiếng Việt cho index hiện tại.
 3. **Toàn vẹn thông tin**: Ưu tiên CHẤT LƯỢNG và TÍNH ĐẦY ĐỦ của bản dịch. Dịch vắn tắt các từ chêm (như "uhm", "actually") nhưng BẮT BUỘC phải truyền tải trọn vẹn 100% ngữ nghĩa của ý chính, tuyệt đối không được tự ý cắt xén thông tin chỉ để cho ngắn. Ý nghĩa bảo toàn là điều quan trọng nhất, nhưng nếu không làm sứt mẻ ý nghĩa hãy **cố gắng dịch súc tích, ngắn gọn nhất khi có thể**.
-4. **Nhất quán Đại từ (Pronoun Consistency)**: Hãy phân tích ngữ cảnh để thiết lập và DUY TRÌ đúng một bộ đại từ nhân xưng thống nhất xuyên suốt. Không được nhảy loạn xạ các đại từ giữa các dòng trừ khi xuất hiện nhân vật mới. Nếu file không có đủ ngữ cảnh để xác định nhân xưng, hãy dùng mặc định: Người nói là "Tôi", người nghe là "Các bạn" / "Mọi người".
+4. **Nhất quán Đại từ (Pronoun Consistency)**: Hãy phân tích ngữ cảnh để thiết lập và DUY TRÌ đúng một bộ đại từ nhân xưng thống nhất xuyên suốt. Không được nhảy loạn xạ các đại từ giữa các dòng trừ khi xuất hiện nhân vật mới. Nếu file không có đủ ngữ cảnh để xác định nhân xưng, hãy dùng mặc định: Người nói là "Tôi", người nghe là "Bạn" / "Các bạn" / "Mọi người".
 5. **Thành ngữ & Bản địa hóa (Localization)**: Không dịch word-by-word các phép ẩn dụ hoặc thành ngữ tiếng Anh ("Piece of cake"). Hãy tìm câu thành ngữ / cách nói tương đương đậm chất Việt Nam ("Dễ như ăn kẹo") để nghe tự nhiên nhất.
 6. **Thẻ âm thanh & Tên riêng (Sound tags & Entities)**: Tuyệt đối giữ nguyên tên riêng, tên thương hiệu. Đối với các thẻ mô tả âm thanh, bối cảnh như `[Upbeat music]`, `(laughs)`, phải dịch mềm mại sang tiếng Việt và BẮT BUỘC giữ nguyên định dạng dấu ngoặc tương ứng như `[Nhạc sôi động]`, `(cười lớn)`.
 7. **Cảm xúc & Đặc thù**: Giữ lại nhịp điệu đứt gãy bằng dấu (...) hoặc (-). Với video chuyên ngành (ví dụ: Coding, Esports, Khoa học nói chung, v.v..), giữ nguyên thuật ngữ tiếng Anh phổ biến (buff, nerf, deploy) nếu không có từ tiếng Việt hoàn hảo tương đương.
@@ -47,9 +47,9 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
         - **Đơn vị đo lường**:
             - **Chuyển đổi từ hệ Imperial sang Metric**: Ví dụ, miles -> km (kilômét), feet/inches -> m/cm (mét/centimét), pounds (lbs) -> kg (kilôgam), Fahrenheit (°F) -> Celsius (°C).
                 - `EN`: `The package weighs 5 lbs and is 10 inches long.`
-                - `VN (mong muốn)`: `Gói hàng nặng khoảng 2,268 kg và dài 25,4 cm.`
+                - `VN (mong muốn)`: `Gói hàng nặng khoảng 2,3 kg (5 lbs) và dài 25,4 cm (10 inches).`
                 - `EN`: `The temperature is 77°F.`
-                - `VN (mong muốn)`: `Nhiệt độ là 25°C.`
+                - `VN (mong muốn)`: `Nhiệt độ là 25°C (77°F).`
                 - **Khi thực hiện chuyển đổi, phải đảm bảo tính chính xác tối đa bằng cách cố gắng bảo toàn số chữ số có nghĩa (significant figures) tương đương với giá trị gốc. Tránh làm tròn quá sớm hoặc làm tròn đến mức làm mất đi độ chính xác cần thiết của dữ liệu gốc.** Ví dụ, nếu giá trị gốc được cung cấp với độ chính xác đến hai chữ số thập phân, giá trị chuyển đổi cũng nên phản ánh độ chính xác tương tự sau khi tính toán, thường là giữ lại ít nhất 2-3 chữ số thập phân, trừ khi bản chất của đơn vị mới (ví dụ: mét) thường không yêu cầu nhiều hơn hoặc giá trị gốc là số nguyên. Mục tiêu là kết quả chuyển đổi phải phản ánh trung thực nhất độ chính xác của dữ liệu ban đầu.
             - **Trường hợp giữ nguyên**: Nếu đơn vị là một phần của thông số kỹ thuật tiêu chuẩn, tên model, hoặc việc chuyển đổi có thể gây nhầm lẫn/mất thông tin quan trọng. Ví dụ: kích thước màn hình "a 27-inch monitor" có thể giữ là "màn hình 27 inch" vì đây là cách nói phổ biến trong ngành. Nếu cần, có thể ghi chú thêm giá trị quy đổi trong ngoặc đơn: "màn hình 27 inch (khoảng 68,58 cm)".
         - **Định dạng số**:
@@ -162,7 +162,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
             ]
             ```
             *(Đánh giá: Tai nghe "buy this" -> mắt đọc "mua máy này". Tai nghe "negative reviews" -> mắt đọc "chê tơi tả". Thứ tự xuất hiện khớp 100%, thời lượng chữ tương đương bản gốc, và câu tiếng Việt nối lại vẫn hoàn toàn tự nhiên).*
-        - **Ví dụ Xử lý "Câu cụt" / "Từ văng trúng rìa" (Tuyệt đối không ghép index):**
+        - **Ví dụ Xử lý "Câu cụt" (Tuyệt đối không ghép index):**
             - **Bản gốc (Anh) - Xuất hiện từ rớt nhịp ("it's"):**
                 ```json
                 [
@@ -180,7 +180,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
                 ]
                 ```
                 *(Lỗi: AI thấy "it's" đứng chơ vơ ở id 305 nên tự ý bê nội dung của id 306 ("artificial general is when") lên lấp vào. Hậu quả là hỏng toàn bộ thứ tự id phía sau).*
-            - **Bản dịch CHUẨN (Tôn trọng câu cụt, dịch thô dồn từ):**
+            - **Bản dịch CHUẨN (Tôn trọng câu cụt):**
                 ```json
                 [
                   { "id": 304, "vi": "Theo cách hiểu 'tay mơ' của tôi, thì" },
