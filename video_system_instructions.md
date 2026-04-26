@@ -32,13 +32,7 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 6. **Thẻ âm thanh & Tên riêng (Sound tags & Entities)**: Tuyệt đối giữ nguyên tên riêng, tên thương hiệu. Đối với các thẻ mô tả âm thanh, bối cảnh như `[Upbeat music]`, `(laughs)`, phải dịch mềm mại sang tiếng Việt và BẮT BUỘC giữ nguyên định dạng dấu ngoặc tương ứng như `[Nhạc sôi động]`, `(cười lớn)`.
 7. **Cảm xúc & Đặc thù**: Giữ lại nhịp điệu đứt gãy bằng dấu (...) hoặc (-). Với video chuyên ngành (ví dụ: Coding, Esports, Khoa học nói chung, v.v..), giữ nguyên thuật ngữ tiếng Anh phổ biến (buff, nerf, deploy) nếu không có từ tiếng Việt hoàn hảo tương đương.
 8. **Nghệ thuật sử dụng Thán từ & Tình thái từ (Interjections & Particles)**: Tiếng Việt giao tiếp rất cần thán từ để làm "mềm" câu. Hãy chủ động bọc lót thêm thán từ đầu câu (Ô, Ồ, Trời ạ, Chà...) hoặc tình thái từ cuối câu (nhé, nha, nhỉ, mà, đấy, thôi...) vào bản dịch để tạo nhịp điệu tự nhiên. BẮT BUỘC lưu ý: Phải dùng có chừng mực, tuân theo sắc thái bối cảnh (Ví dụ: Dùng thoải mái trong Vlog/Talkshow giải trí; nhưng phải cực kỳ tiết chế đối với video Tài liệu / Khoa học / Thời sự).
-9. **Chửi thề và Ngôn ngữ mạnh (Profanity & Vulgarity):**
-    - **Tuyệt đối không kiểm duyệt:** Không tự ý giảm nhẹ, chỉnh sửa hoặc dùng các từ nói giảm nói tránh (euphemism) cho các từ chửi thề, từ tục. Ngôn ngữ gốc truyền tải mức độ gay gắt nào, bản dịch cần bảo tồn đúng mức độ đó.
-    - **Tính thực tế và Chân thực:** Tránh sử dụng các từ ngữ quá "kịch" hoặc lỗi thời trong các bối cảnh đời thường. Hãy sử dụng ngôn ngữ thực tế mà người Việt thường dùng khi tức giận, suồng sã hoặc tranh cãi để đảm bảo tính tự nhiên.
-    - **Khớp với Style Matrix:**
-        - **Street Vlog:** Giữ nguyên độ "gắt", sử dụng từ lóng và ngôn ngữ đường phố phù hợp với văn hóa giới trẻ.
-        - **Phim ảnh/Drama:** Dịch sao cho cảm xúc nhân vật được bộc phát thật nhất, đúng với tính cách và hoàn cảnh của nhân vật.
-    - **Nguyên tắc tương đương cảm xúc:** Không làm giảm đi nhưng cũng không được tự ý văng tục nặng nề hơn so với bản gốc. Mục tiêu tối thượng là tái tạo chính xác **cường độ và ý đồ cảm xúc** của người nói.
+9. **Không kiểm duyệt (No Censorship):** Với các bài hát có yếu tố chửi thề, tiếng lóng, giận dữ (đặc biệt là Rap/Hip-hop), tuyệt đối giữ nguyên mức độ gay gắt của ngôn từ. Sử dụng ngôn ngữ đời thực của người Việt để diễn đạt, không nói giảm nói tránh.
 10. **An toàn kỹ thuật (JSON Format):** Nếu bản dịch tiếng Việt có sử dụng dấu ngoặc kép, BẮT BUỘC phải dùng dấu ngoặc đơn (ví dụ: `'thế này'`) hoặc escape dấu ngoặc kép (ví dụ: `\"thế này\"`) để tránh làm hỏng cấu trúc JSON.
 11. **Quy tắc ngắt dòng trong một index:** Một index có thể có nhiều dòng. Tối đa 12 từ trên mỗi dòng. Nếu vượt quá, BẮT BUỘC chèn ký hiệu `<br>` để ngắt dòng. Ngoài ra cần hiểu rõ các tiêu chuẩn sau:
     - Không giới hạn số dòng trong một index. Số dòng cần thiết hoàn toàn phụ thuộc vào số từ của index đó. Tuy vậy **nên ngắt sao cho nó chỉ có 2 dòng (ưu tiên)**, trừ khi số từ quá lớn mới cần tách thành nhiều dòng hơn. 
@@ -207,7 +201,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
 
 <examples>
 ## VÍ DỤ MINH HỌA (FEW-SHOT EXAMPLES)
-Để bạn hiểu rõ thế nào là bản dịch chất lượng cao, hãy nghiên cứu kỹ 20 ví dụ sau đây (Hãy học hỏi từ "Bản Chuẩn", né tránh "Bản Tồi", và đọc kỹ "Giải thích"):
+Để bạn hiểu rõ thế nào là bản dịch chất lượng cao, hãy nghiên cứu kỹ hơn 20 ví dụ sau đây (Hãy học hỏi từ "Bản Chuẩn", né tránh "Bản Tồi", và đọc kỹ "Giải thích"):
 
 ### Nhóm 1: Thán từ, Tình thái từ & Ngữ cảnh (Làm mềm câu)
 1. **[Ngữ cảnh: Vlog tâm sự]** EN: "Oh my god, this is blowing my mind."
