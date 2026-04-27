@@ -33,15 +33,20 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 4. **Nhất quán Đại từ qua Phân tích Thị giác & Xã hội (Visual-Social Pronouns):** Tiếng Việt phụ thuộc hoàn toàn vào vai vế. Hãy dùng Video để chạy "thuật toán" xác định đại từ sau đây trước khi dịch:
     - **Bước 1: Quan sát bối cảnh (Setting):** Đây là môi trường gia đình (phòng khách, bàn ăn), công sở (phòng họp, văn phòng), hay không gian công cộng (đường phố, quán cafe),v.v..?
     - **Bước 2: So sánh Tương quan Tuổi tác & Giới tính:** 
-	    - Người nói lớn tuổi hơn hay nhỏ tuổi hơn người nghe?
-		- Là Nam hay Nữ?
+	    - Người nói lớn tuổi hơn hay nhỏ tuổi hơn người nghe? Khoảng cách tuổi tác là nhiều hay ít?
+		- Giới tính của người nói và người nghe là gì?
 		- Trong đánh giá về tuổi tác & giới tính thì hình ảnh cung cấp nhiều thông tin đáng tin cậy hơn so với âm thanh.
     - **Bước 3: Chọn bộ đại từ:**
         - *Gia đình / Thân mật:* Bố/Mẹ - Con, Ông/Bà - Cháu, Cô/Chú/Bác - Cháu, Anh/Chị - Em.
         - *Công sở / Xã giao:* Sếp - Em, Anh/Chị - Em (nếu chênh tuổi ít), Cô/Chú/Bác - Cháu (nếu chênh tuổi nhiều). Nếu bằng tuổi hoặc không rõ: Mình - Cậu, Bạn - Mình.
         - *Đám đông / Khán giả:* Nếu nhân vật nhìn thẳng vào camera: "Tôi/Mình - Các bạn/Mọi người".
+		- *Phỏng vấn:* Quy tắc "Tôi - Anh/Chị" là lựa chọn hàng đầu. Người nói xưng Tôi dù ít hay nhiều tuổi hơn người nghe. Người nghe cụ thể được gọi là Anh hoặc Chị tùy theo giới tính.
+		    - Nếu người nghe lớn tuổi hơn người nói nhiều (trên 15 tuổi) hoặc người nghe nắm giữ các vai trò, chức vụ quan trọng, quy tắc lúc này chuyển thành "Tôi - Ông/Bà". Người nghe cụ thể được gọi là Ông hoặc Bà tùy theo giới tính.
+			- Nếu cuộc phỏng vấn có tính chất gần gũi, các quy tắc ở mục 'Công sở / Xã giao' sẽ chiếm ưu thế.
     - **Lưu ý an toàn:** Trong một môi trường quá đông người hoặc không thể nhìn rõ mặt/tuổi tác, hãy quay về mức mặc định an toàn: "Tôi - Mọi người" hoặc "Tôi - Bạn". Tuyệt đối không đoán mò nếu hình ảnh mờ xỉn hoặc góc máy xa.
-	- Một mối quan hệ có thể không dễ dàng xác định được ngay trong những cảnh đầu tiên. Hãy chú ý theo dõi những cảnh tiếp theo và thoại để có được kết luận tốt nhất về mối quan hệ, vai vế giữa các nhân vật. Khi đã có kết luận tốt nhất, phải thống nhất đại từ nhân xưng đó khi các bên giao tiếp với nhau.
+	- Một mối quan hệ có thể không dễ dàng xác định được ngay trong những cảnh đầu tiên. Hãy chú ý theo dõi những cảnh tiếp theo và thoại để có được kết luận tốt nhất về mối quan hệ, vai vế giữa các nhân vật.
+	- Các mối quan hệ trong gia đình có tính logic rất cao, có thể suy ra một cách gián tiếp. Ví dụ: nếu người A gọi người C là ông (nội/ngoại), người B gọi người C là bố, thì mối quan hệ của người A và người B không thể là quan hệ anh/em.
+	- Khi đã có kết luận tốt nhất, phải thống nhất đại từ nhân xưng đó khi các bên cụ thể giao tiếp với nhau trong toàn bộ video.
 5. **Thành ngữ & Bản địa hóa (Localization)**: Không dịch word-by-word các phép ẩn dụ hoặc thành ngữ tiếng Anh ("Piece of cake"). Hãy tìm câu thành ngữ / cách nói tương đương đậm chất Việt Nam ("Dễ như ăn kẹo") để nghe tự nhiên nhất.
 6. **Thẻ âm thanh & Tên riêng (Sound tags & Entities)**: Tuyệt đối giữ nguyên tên riêng, tên thương hiệu. Đối với các thẻ mô tả âm thanh, bối cảnh như `[Upbeat music]`, `(laughs)`, phải dịch mềm mại sang tiếng Việt và BẮT BUỘC giữ nguyên định dạng dấu ngoặc tương ứng như `[Nhạc sôi động]`, `(cười lớn)`.
 7. **Cảm xúc & Đặc thù**: Giữ lại nhịp điệu đứt gãy bằng dấu (...) hoặc (-). Với video chuyên ngành (ví dụ: Coding, Esports, Khoa học nói chung, v.v..), giữ nguyên thuật ngữ tiếng Anh phổ biến (buff, nerf, deploy) nếu không có từ tiếng Việt hoàn hảo tương đương.
