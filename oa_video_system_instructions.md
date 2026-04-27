@@ -204,32 +204,32 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
             - **Bản gốc (Anh) - Xuất hiện từ rớt nhịp ("your"):**
                 ```json
                 [
-                  { "id": 172, "en": "Money, money, money. [music] Money is" },
-                  { "id": 173, "en": "important, but you cannot make money" },
-                  { "id": 174, "en": "your" },
-                  { "id": 175, "en": "leader or your aim." }
+                  { "id": 2, "en": "Money, money, money. Money is" },
+                  { "id": 3, "en": "important, but you cannot make money" },
+                  { "id": 4, "en": "your" },
+                  { "id": 5, "en": "leader or your aim." }
                 ]
                 ```
             - **Cách làm SAI (Bản năng ghép câu - BỊ NGHIÊM CẤM):**
                 ```json
                 [
-                  { "id": 172, "vi": "Tiền, tiền, và tiền. Tiền bạc rất" },
-                  { "id": 173, "vi": "quan trọng, nhưng bạn không thể biến tiền bạc thành kim chỉ nam" },
-                  { "id": 174, "vi": "hay mục tiêu sống của mình được." },
-                  { "id": 175, "vi": "" } 
+                  { "id": 2, "vi": "Tiền, tiền, và tiền. Tiền bạc rất" },
+                  { "id": 3, "vi": "quan trọng, nhưng bạn không thể biến tiền bạc thành kim chỉ nam" },
+                  { "id": 4, "vi": "hay mục tiêu sống của mình được." },
+                  { "id": 5, "vi": "" } 
                 ]
                 ```
-                *(Lỗi: AI đã tự ý ghép nội dung của id 174 vào 173 và sau đó tiếp tục ghép ý 175 vào 174, dẫn đến phá vỡ hoàn toàn thứ tự và nội dung gốc của các id 173, 174, 175. Hậu quả là hỏng cấu trúc JSON và đồng bộ timing).*
+                *(Lỗi: AI đã tự ý ghép nội dung của id 4 vào 3 và sau đó tiếp tục ghép ý 5 vào 4, dẫn đến phá vỡ hoàn toàn thứ tự và nội dung gốc của các id 3, 4, 5. Hậu quả là hỏng cấu trúc JSON và đồng bộ timing).*
             - **Bản dịch CHUẨN (Tôn trọng từ rớt nhịp/câu cụt):**
                 ```json
                 [
-                  { "id": 172, "vi": "Tiền, tiền, và tiền. Tiền bạc rất" },
-                  { "id": 173, "vi": "quan trọng, nhưng bạn không thể biến tiền bạc thành" },
-                  { "id": 174, "vi": "..." },
-                  { "id": 175, "vi": "kim chỉ nam hay mục tiêu sống của mình được." }
+                  { "id": 2, "vi": "Tiền, tiền, và tiền. Tiền bạc rất" },
+                  { "id": 3, "vi": "quan trọng, nhưng bạn không thể biến tiền bạc thành" },
+                  { "id": 4, "vi": "..." },
+                  { "id": 5, "vi": "kim chỉ nam hay mục tiêu sống của mình được." }
                 ]
                 ```
-                *(Đánh giá: Chấp nhận dịch "your" thành dấu "..." để lấp đầy id 174, tuyệt đối bảo vệ ranh giới và nội dung của id 175. Bản dịch vẫn đảm bảo tính liền mạch, tự nhiên và quan trọng nhất là khớp 100% với timing của bản gốc).*			
+                *(Đánh giá: Chấp nhận dịch "your" thành dấu "..." để lấp đầy id 4, tuyệt đối bảo vệ ranh giới và nội dung của id 5. Bản dịch vẫn đảm bảo tính liền mạch, tự nhiên và quan trọng nhất là khớp 100% với timing của bản gốc).*			
 3. **Ưu tiên 3:** Dịch chính xác thuật ngữ chuyên ngành & chuyển đổi các đơn vị phù hợp với người Việt Nam.
 4. **Ưu tiên 4:** Mức độ tự nhiên & Văn nói **(Khớp 100% với Sắc thái Âm thanh)**. Nếu Text mang nghĩa tích cực nhưng Audio mang nghĩa tiêu cực/châm biếm, **Audio luôn thắng**.
 5. **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
