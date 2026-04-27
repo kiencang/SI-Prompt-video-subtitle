@@ -399,7 +399,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
       `{"id": 202, "vi": "...và anh thấy làm vậy là quá bất công với anh."}, `
       `{"id": 203, "vi": "Đó không phải là chuyện của tôi!"}]`
     - *=> Giải thích*: 
-      - **Linh hoạt nội bộ (id 201 & 202):** Audio cho thấy id 201 và 202 đều là giọng Nam của cùng một người. AI linh hoạt dịch mượt mà, đổi "I" thành "Anh" (khi có độ chắc chắn cao về đại từ nhân xưng phù hợp) và dùng dấu "..." để nối mạch tự sự. Bỏ từ độn "honestly".
+      - **Linh hoạt nội bộ (id 201 & 202):** Audio cho thấy id 201 và 202 đều là giọng Nam của cùng một người. AI linh hoạt dịch mượt mà, đổi "I" thành "Anh" (khi có độ chắc chắn rất cao về đại từ nhân xưng phù hợp, nếu không sẽ vẫn giữ là "Tôi") và dùng dấu "..." để nối mạch tự sự. Bỏ từ độn "honestly".
       - **Ngắt ranh giới dứt khoát (id 203):** Audio cho thấy giọng Nữ vang lên cắt ngang ở id 203. AI lập tức đóng dấu câu ở id 202. Chuyển đại từ ở id 203 thành "Tôi", dịch dứt khoát, không dùng từ nối.
 </examples>
 </system_instructions>
