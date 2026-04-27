@@ -163,7 +163,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
             ]
             ```
             *(Đánh giá: Tai nghe "buy this" -> mắt đọc "mua máy này". Tai nghe "negative reviews" -> mắt đọc "chê tơi tả". Thứ tự xuất hiện khớp 100%, thời lượng chữ tương đương bản gốc, và câu tiếng Việt nối lại vẫn hoàn toàn tự nhiên).*
-        - **Ví dụ Xử lý "Câu cụt" (Tuyệt đối không ghép index):**
+        - **Ví dụ Xử lý "Câu cụt/Từ rớt nhịp" (Tuyệt đối không ghép index):**
             - **Bản gốc (Anh) - Xuất hiện từ rớt nhịp ("it's"):**
                 ```json
                 [
@@ -189,7 +189,37 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
                   { "id": 306, "vi": "trí tuệ nhân tạo tổng quát là khi" }
                 ]
                 ```
-                *(Đánh giá: Chấp nhận dịch "it's" thành "đó là..." để lấp đầy id 305, tuyệt đối bảo vệ ranh giới và nội dung của id 306. Nếu rớt nhịp chữ nào, dịch đúng chữ đó rồi dùng dấu "..." để duy trì nhịp).*			
+                *(Đánh giá: Chấp nhận dịch "it's" thành "đó là..." để lấp đầy id 305, tuyệt đối bảo vệ ranh giới và nội dung của id 306. Nếu rớt nhịp chữ nào, dịch đúng chữ đó rồi dùng dấu "..." để duy trì nhịp).*
+        - **Ví dụ tiếp về Xử lý "Câu cụt/Từ rớt nhịp" (Tuyệt đối không ghép index):**
+            - **Bản gốc (Anh) - Xuất hiện từ rớt nhịp ("your"):**
+                ```json
+                [
+                  { "id": 172, "en": "Money, money, money. [music] Money is" },
+                  { "id": 173, "en": "important, but you cannot make money" },
+                  { "id": 174, "en": "your" },
+                  { "id": 175, "en": "leader or your aim." }
+                ]
+                ```
+            - **Cách làm SAI (Bản năng ghép câu - BỊ NGHIÊM CẤM):**
+                ```json
+                [
+                  { "id": 172, "vi": "Tiền, tiền, và tiền. Tiền bạc rất" },
+                  { "id": 173, "vi": "quan trọng, nhưng bạn không thể biến tiền bạc thành kim chỉ nam" },
+                  { "id": 174, "vi": "hay mục tiêu sống của mình được." },
+                  { "id": 175, "vi": "" } 
+                ]
+                ```
+                *(Lỗi: AI đã tự ý ghép nội dung của id 174 vào 173 và sau đó tiếp tục ghép ý 175 vào 174, dẫn đến phá vỡ hoàn toàn thứ tự và nội dung gốc của các id 173, 174, 175. Hậu quả là hỏng cấu trúc JSON và đồng bộ timing).*
+            - **Bản dịch CHUẨN (Tôn trọng từ rớt nhịp/câu cụt):**
+                ```json
+                [
+                  { "id": 172, "vi": "Tiền, tiền, và tiền. Tiền bạc rất" },
+                  { "id": 173, "vi": "quan trọng, nhưng bạn không thể biến tiền bạc thành" },
+                  { "id": 174, "vi": "..." },
+                  { "id": 175, "vi": "kim chỉ nam hay mục tiêu sống của mình được." }
+                ]
+                ```
+                *(Đánh giá: Chấp nhận dịch "your" thành dấu "..." để lấp đầy id 174, tuyệt đối bảo vệ ranh giới và nội dung của id 175. Bản dịch vẫn đảm bảo tính liền mạch, tự nhiên và quan trọng nhất là khớp 100% với timing của bản gốc).*				
 3. **Ưu tiên 3:** Dịch chính xác thuật ngữ chuyên ngành & chuyển đổi các đơn vị phù hợp với người Việt Nam.
 4. **Ưu tiên 4:** Mức độ tự nhiên & Văn nói (tính khẩu ngữ & sắc thái bản địa).
 5. **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
