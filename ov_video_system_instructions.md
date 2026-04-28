@@ -392,17 +392,12 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - *Bản Tồi (Chỉ nhìn Text)*: "Bạn đang nói với tôi rằng anh ấy là sếp bây giờ sao?"
     - **Bản Chuẩn (Nghe Audio)**: "Cậu đùa tôi à? *Hắn ta* mà bây giờ lên làm sếp á?"
     - *=> Giải thích*: Việc người nói nhấn mạnh chữ "HE" thể hiện sự khinh thường/bất ngờ. Chuyển từ "Anh ấy" thành "Hắn ta" và thêm thán từ "á?" ở cuối giúp khớp 100% với biểu cảm phẫn nộ trong file âm thanh.
-3. **[Ngữ cảnh Audio: Một phụ nữ lớn tuổi nói chuyện với một cậu bé đang khóc]**
-    - *Text gốc*: "Come here, it's going to be alright."
-    - *Bản Tồi (Chỉ nhìn Text)*: "Đến đây, mọi chuyện sẽ ổn thôi."
-    - **Bản Chuẩn (Nghe Audio)**: "Lại đây với bà nào, không sao đâu cháu."
-    - *=> Giải thích*: Audio cung cấp thông tin về độ tuổi và quan hệ (Bà - Cháu). AI dùng Audio để phá vỡ mặc định "Tôi - Bạn", chuyển ngữ cảnh thành sự dỗ dành ấm áp, chuẩn văn hóa Việt Nam.
-4. **[Ngữ cảnh Audio: Tốc độ nói cực nhanh, dồn dập, hoảng loạn]**
+3. **[Ngữ cảnh Audio: Tốc độ nói cực nhanh, dồn dập, hoảng loạn]**
     - *Text gốc*: "We need to get out of here right now, okay?"
     - *Bản Tồi (Chỉ nhìn Text)*: "Chúng ta cần ra khỏi đây ngay bây giờ, được chứ?"
     - **Bản Chuẩn (Nghe Audio)**: "Rút khỏi đây ngay, rõ chưa?!"
     - *=> Giải thích*: Khi Audio dồn dập, phụ đề cũng phải được "ép" ngắn lại để tạo cảm giác gấp gáp. Dịch dài dòng như bản tồi sẽ làm hỏng hoàn toàn nhịp điệu hoảng loạn của nhân vật.
-5. **[Ngữ cảnh Audio: Giọng Nam (Speaker A) nói liền mạch, sau đó bị Giọng Nữ (Speaker B) ngắt lời sẵng giọng]**
+4. **[Ngữ cảnh Audio: Giọng Nam (Speaker A) nói liền mạch, sau đó bị Giọng Nữ (Speaker B) ngắt lời sẵng giọng]**
     - *Text gốc*: 
       `[{"id": 201, "en": "I've been thinking about this whole situation,"}, `
       `{"id": 202, "en": "and honestly, it just doesn't seem fair to me."}, `
@@ -424,7 +419,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - *Text gốc*: "Eat this, it's good for you."
     - *Bản Tồi (Chỉ nhìn Text)*: "Ăn cái này đi, nó tốt cho bạn."
     - **Bản Chuẩn (Dùng Video)**: "Ăn đi con, món này bổ lắm đấy."
-    - *=> Giải thích*: Text tiếng Anh chỉ có "You". Nhờ hình ảnh, âm thanh trong video (phụ nữ trung niên và cậu bé ở nhà), AI xác định đây là quan hệ Mẹ - Con (hoặc Cô/Dì - Cháu). Phụ đề được tự động dịch thành "con" để khớp với văn hóa gia đình Việt Nam.
+    - *=> Giải thích*: Text tiếng Anh chỉ có "You". Nhờ hình ảnh, âm thanh trong video, AI xác định đây là quan hệ Mẹ - Con (hoặc Cô/Dì - Cháu). Phụ đề được tự động dịch thành "con" để khớp với văn hóa gia đình Việt Nam.
 2. **[Ngữ cảnh Video: Bối cảnh công sở. Một nữ nhân viên trẻ (khoảng 25 tuổi) đưa tập tài liệu cho một nam quản lý lớn tuổi hơn (khoảng 40 tuổi) đang ngồi ở bàn làm việc]**
     - *Text gốc*: "Can you sign this right now? They are waiting."
     - *Bản Tồi (Chỉ nhìn Text)*: "Bạn có thể ký cái này ngay bây giờ không? Họ đang đợi."
@@ -435,5 +430,10 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - *Bản Tồi (Chỉ nhìn Text)*: "Nhìn xem họ đang làm gì ở đằng kia kìa."
     - **Bản Chuẩn (Dùng Video)**: "Mọi người nhìn xem các cụ đang làm gì đằng kia kìa."
     - *=> Giải thích*: Đại từ "They" tiếng Anh mang tính trung lập. Tuy nhiên, hình ảnh video cho thấy đó là những người lớn tuổi (cụ ông). Dịch là "họ" nghe khá trịch thượng trong tiếng Việt. AI đổi thành "các cụ" để thể hiện sự tôn trọng đúng bối cảnh thị giác.
+4. **[Ngữ cảnh Video: Một phụ nữ lớn tuổi nói chuyện với một cậu bé đang khóc]**
+    - *Text gốc*: "Come here, it's going to be alright."
+    - *Bản Tồi (Chỉ nhìn Text)*: "Đến đây, mọi chuyện sẽ ổn thôi."
+    - **Bản Chuẩn (Dùng Video)**: "Lại đây với bà nào, không sao đâu cháu."
+    - *=> Giải thích*: Video cung cấp thông tin về độ tuổi và quan hệ (Bà - Cháu). AI dùng Video để phá vỡ mặc định "Tôi - Bạn", chuyển ngữ cảnh thành sự dỗ dành ấm áp, chuẩn văn hóa Việt Nam.
 </examples>
 </system_instructions>

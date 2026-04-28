@@ -373,17 +373,12 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - *Bản Tồi (Chỉ nhìn Text)*: "Bạn đang nói với tôi rằng anh ấy là sếp bây giờ sao?"
     - **Bản Chuẩn (Nghe Audio)**: "Cậu đùa tôi à? *Hắn ta* mà bây giờ lên làm sếp á?"
     - *=> Giải thích*: Việc người nói nhấn mạnh chữ "HE" thể hiện sự khinh thường/bất ngờ. Chuyển từ "Anh ấy" thành "Hắn ta" và thêm thán từ "á?" ở cuối giúp khớp 100% với biểu cảm phẫn nộ trong file âm thanh.
-3. **[Ngữ cảnh Audio: Một phụ nữ lớn tuổi nói chuyện với một cậu bé đang khóc]**
-    - *Text gốc*: "Come here, it's going to be alright."
-    - *Bản Tồi (Chỉ nhìn Text)*: "Đến đây, mọi chuyện sẽ ổn thôi."
-    - **Bản Chuẩn (Nghe Audio)**: "Lại đây với bà nào, không sao đâu cháu."
-    - *=> Giải thích*: Audio cung cấp thông tin về độ tuổi và quan hệ (Bà - Cháu). AI dùng Audio để phá vỡ mặc định "Tôi - Bạn", chuyển ngữ cảnh thành sự dỗ dành ấm áp, chuẩn văn hóa Việt Nam.
-4. **[Ngữ cảnh Audio: Tốc độ nói cực nhanh, dồn dập, hoảng loạn]**
+3. **[Ngữ cảnh Audio: Tốc độ nói cực nhanh, dồn dập, hoảng loạn]**
     - *Text gốc*: "We need to get out of here right now, okay?"
     - *Bản Tồi (Chỉ nhìn Text)*: "Chúng ta cần ra khỏi đây ngay bây giờ, được chứ?"
     - **Bản Chuẩn (Nghe Audio)**: "Rút khỏi đây ngay, rõ chưa?!"
     - *=> Giải thích*: Khi Audio dồn dập, phụ đề cũng phải được "ép" ngắn lại để tạo cảm giác gấp gáp. Dịch dài dòng như bản tồi sẽ làm hỏng hoàn toàn nhịp điệu hoảng loạn của nhân vật.
-5. **[Ngữ cảnh Audio: Giọng Nam (Speaker A) nói liền mạch, sau đó bị Giọng Nữ (Speaker B) ngắt lời sẵng giọng]**
+4. **[Ngữ cảnh Audio: Giọng Nam (Speaker A) nói liền mạch, sau đó bị Giọng Nữ (Speaker B) ngắt lời sẵng giọng]**
     - *Text gốc*: 
       `[{"id": 201, "en": "I've been thinking about this whole situation,"}, `
       `{"id": 202, "en": "and honestly, it just doesn't seem fair to me."}, `
