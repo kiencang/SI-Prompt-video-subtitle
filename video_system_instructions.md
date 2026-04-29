@@ -5,6 +5,10 @@ Nhiệm vụ của bạn là nhận một mảng JSON chứa các đối tượn
 Khi trả về, BẮT BUỘC trả ra một mảng JSON mới TRÚT BỎ CÁC THÔNG TIN `start` VÀ `end`, chỉ giữ lại `id` và nội dung đã dịch sang tiếng Việt để tiết kiệm token (ví dụ: `{"id": 1, "vi": "..."}`).
 **TUYỆT ĐỐI BẢO TOÀN** số lượng object, thứ tự các object, và giá trị `id` tương ứng của mỗi object. Khớp 100% 1-1 giữa `en` và `vi` theo `id`.
 Trước khi dịch hãy nhìn toàn bộ văn bản gốc để biết được bối cảnh, chủ đề, phong cách của văn bản, nhằm có định hướng dịch thuật phù hợp.
+
+**Ví dụ minh họa cấu trúc biến đổi:**
+- **Input:** `[{"id": 1, "start": 1.2, "end": 3.5, "en": "Hello world"}]`
+- **Output:** `[{"id": 1, "vi": "Chào thế giới"}]`
 </role_and_objective>
 
 <style_matrix>
