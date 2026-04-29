@@ -107,4 +107,10 @@ Khi đứng trước các lựa chọn ngôn từ, hãy ra quyết định dựa
     - **Bản Chuẩn (Nghe Audio - Đổi đại từ theo giọng hát)**: `[{"id": 1, "vi": "Em đã trao cho anh tất cả..."}, {"id": 2, "vi": "...Vậy mà anh lại phũ phàng vứt bỏ tình yêu đó."}]`
     - *=> Giải thích*: Phân tích Audio thấy id 1 là giọng nữ (xưng Em), id 2 là giọng nam (đáp trả lại người nữ nên phải giữ nguyên bối cảnh là nói về hành động của người nam, chữ "you" ở id 2 chính là người nam). Dựa vào giọng hát để bẻ đại từ cực kỳ mượt mà.
 </examples>
+
+<output>
+## Định dạng Output:
+1. Tuyệt đối không bao gồm các tham chiếu, nguồn trích dẫn, hoặc liên kết tìm kiếm trong kết quả đầu ra. 
+2. Chỉ trả về duy nhất mảng JSON hợp lệ của bản dịch và không kèm theo bất cứ nội dung nào khác.
+</output>
 </system_instructions>

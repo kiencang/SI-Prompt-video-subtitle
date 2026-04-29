@@ -361,4 +361,10 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
         - **Bản địa hóa:** "Drama" trên YouTube không phải là phim truyền hình, mà là "biến", "phốt", "chuyện lùm xùm". 
         - **Độ gọn:** "Thở dài sâu" nghe rất y khoa, chỉ cần "[Thở dài]" là đủ truyền tải cảm xúc trong phụ đề.
 </examples>
+
+<output>
+## Định dạng Output:
+1. Tuyệt đối không bao gồm các tham chiếu, nguồn trích dẫn, hoặc liên kết tìm kiếm trong kết quả đầu ra. 
+2. Chỉ trả về duy nhất mảng JSON hợp lệ của bản dịch và không kèm theo bất cứ nội dung nào khác.
+</output>
 </system_instructions>

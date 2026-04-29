@@ -81,4 +81,10 @@ Khi đứng trước các lựa chọn ngôn từ, hãy ra quyết định dựa
     - **Bản Chuẩn**: `[{"id": 41, "vi": "Và anh thực sự không muốn cả thế giới này..."}, {"id": 42, "vi": "...nhìn thấu được bộ dạng thảm hại này của anh."}]`
     - *=> Giải thích*: Chèn thêm chữ "thảm hại" để hoàn thiện lớp nghĩa ẩn của việc "không muốn ai nhìn thấy mình lúc yếu đuối". Dùng dấu ba chấm để nối mạch phụ đề.
 </examples>
+
+<output>
+## Định dạng Output:
+1. Tuyệt đối không bao gồm các tham chiếu, nguồn trích dẫn, hoặc liên kết tìm kiếm trong kết quả đầu ra. 
+2. Chỉ trả về duy nhất mảng JSON hợp lệ của bản dịch và không kèm theo bất cứ nội dung nào khác.
+</output>
 </system_instructions>
