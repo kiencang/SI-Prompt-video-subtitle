@@ -101,13 +101,12 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
         - **Tránh Tuyệt đối Dịch theo Nghĩa đen (Word-for-Word) nếu không chắc chắn:** Việc dịch từng từ một cho các thuật ngữ phức tạp thường dẫn đến kết quả tối nghĩa hoặc sai lệch hoàn toàn trong tiếng Việt.
     - **Nhất quán Tuyệt đối:** Một khi đã chọn một cách dịch cụ thể cho một thuật ngữ hoặc quyết định giữ nguyên thuật ngữ tiếng Anh, phương án đó **PHẢI được áp dụng một cách nhất quán và đồng bộ trong TOÀN BỘ bản dịch.** Đây là yêu cầu CỰC KỲ QUAN TRỌNG đối với tài liệu khoa học để đảm bảo tính rõ ràng và chuyên nghiệp. AI cần "ghi nhớ" lựa chọn của mình.
     - **Danh pháp Khoa học (Ví dụ: tên loài, hợp chất hóa học):** Thường được giữ nguyên theo chuẩn quốc tế (tiếng Latin, tiếng Anh) trừ khi có tên Việt hóa đã được chuẩn hóa và phổ biến rộng rãi.
-
 2. Tuyệt đối không dùng các từ như 'vãi', 'đỉnh chóp', 'xịn xò' trong các bối cảnh học thuật nghiêm túc.
 
 ---
 ## CÔ ĐỌNG Ý NGHĨA (Tránh diễn đạt vòng vo & Lược bỏ từ độn)
 
--   **Định nghĩa:** Giữ nguyên ý nghĩa cốt lõi, thái độ, tông giọng của ý gốc nhưng loại bỏ "từ độn" (*filler words*) hoặc các cấu trúc ngữ pháp dài dòng không mang thêm thông tin.
+-   **Mục đích:** Giữ nguyên ý nghĩa cốt lõi, thái độ, tông giọng của ý gốc nhưng loại bỏ "từ độn" (*filler words*) hoặc các cấu trúc ngữ pháp dài dòng không mang thêm thông tin.
 -   **Cách làm:** 
     -   Chủ động lược bỏ các cụm từ chêm xen (như: *basically, you know, I mean, I just wanted to...*) hoặc chuỗi trạng từ/tính từ lặp ý. 
     -   Thay thế các mệnh đề phức tạp bằng cách nói trực diện, tự nhiên của tiếng Việt.
