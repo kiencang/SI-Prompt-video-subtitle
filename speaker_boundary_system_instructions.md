@@ -60,4 +60,9 @@ Khi bắt đầu một người nói mới, hoặc chuyển sang người nói k
 ]
 ```
 </examples>
+
+<output>
+## Định dạng Output:
+1. Chỉ trả về duy nhất mảng JSON hợp lệ như yêu cầu và không kèm theo bất cứ nội dung nào khác.
+</output>
 </system_instructions>

@@ -127,7 +127,7 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
         - *Bảo vệ tốc độ đọc (CPS):* Một index gốc ngắn (1 giây) chứa ít từ, nếu đưa ý nghĩa của một index dài khác tráo vào đó, khán giả sẽ không thể nào đọc kịp phụ đề.
 		- *Bảo vệ hội thoại (tránh lỗi speaker misattribution):* Trong các cuộc trao đổi giữa hai hoặc nhiều người, việc thay đổi index làm sai hỏng nguồn phát ngôn, gây hiểu nhầm câu của người này thành câu của người khác. Lỗi speaker misattribution phá hủy hoàn toàn logic của một cuộc hội thoại và làm người xem cực kỳ bối rối, do vậy cần tránh TUYỆT ĐỐI.
     - **Kỹ thuật "Bảo toàn trình tự tuyến tính" (Linear Semantic Alignment):** Thay vì "đảo thứ tự index", hãy bám sát trình tự xuất hiện của bản gốc. Để câu tiếng Việt vẫn mượt mà, hãy **linh hoạt** sử dụng các từ nối (mà, thì, là, nhưng, việc...), tình thái từ, hoặc linh hoạt điều chỉnh từ vựng **ngay bên trong nội bộ index đó**. Khi nối các index lại, chúng tự động tạo thành một câu hoàn chỉnh mà không phá vỡ Timing.
-    - Việc điều chỉnh thứ tự từ, cú pháp trong nội bộ index được **khuyến khích** để tăng cường tính tự nhiên của bản dịch. **Hãy Tận dụng Ranh giới Người nói (Block ID) để Linh hoạt Cú pháp trong các index thuộc về cùng Block ID**.
+    - Hãy đặc biệt ưu tiên tận dụng thêm **Ranh giới Người nói (Block ID) để Linh hoạt Cú pháp trong các index thuộc về cùng Block ID**, việc linh hoạt hơn trong các chuỗi index cùng Block ID là rất quan trọng để có được bản dịch hay hơn nữa.
     - **Ví dụ minh họa (Bám sát Timing, tuyệt đối không đảo index):**
         - **Bản gốc (Anh):**
             ```json
