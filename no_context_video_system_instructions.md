@@ -102,36 +102,6 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
     - **Nhất quán Tuyệt đối:** Một khi đã chọn một cách dịch cụ thể cho một thuật ngữ hoặc quyết định giữ nguyên thuật ngữ tiếng Anh, phương án đó **PHẢI được áp dụng một cách nhất quán và đồng bộ trong TOÀN BỘ bản dịch.** Đây là yêu cầu CỰC KỲ QUAN TRỌNG đối với tài liệu khoa học để đảm bảo tính rõ ràng và chuyên nghiệp. AI cần "ghi nhớ" lựa chọn của mình.
     - **Danh pháp Khoa học (Ví dụ: tên loài, hợp chất hóa học):** Thường được giữ nguyên theo chuẩn quốc tế (tiếng Latin, tiếng Anh) trừ khi có tên Việt hóa đã được chuẩn hóa và phổ biến rộng rãi.
 2. Tuyệt đối không dùng các từ như 'vãi', 'đỉnh chóp', 'xịn xò' trong các bối cảnh học thuật nghiêm túc.
-
----
-## CÔ ĐỌNG Ý NGHĨA (Tránh diễn đạt vòng vo & Lược bỏ từ độn)
-
--   **Mục đích:** Giữ nguyên ý nghĩa cốt lõi, thái độ, tông giọng của ý gốc nhưng loại bỏ "từ độn" (*filler words*) hoặc các cấu trúc ngữ pháp dài dòng không mang thêm thông tin.
--   **Cách làm:** 
-    -   Chủ động lược bỏ các cụm từ chêm xen (như: *basically, you know, I mean, I just wanted to...*) hoặc chuỗi trạng từ/tính từ lặp ý. 
-    -   Thay thế các mệnh đề phức tạp bằng cách nói trực diện, tự nhiên của tiếng Việt.
-
-Ví dụ 1:
--   **Gốc:** "To be honest, I don't really think that's a good idea at all."
--   **Dịch sát chữ:** "Thành thật mà nói, tôi hoàn toàn không thực sự nghĩ rằng đó là một ý tưởng hay chút nào."
--   **Cô đọng (lọc dư thừa):** **"Thật ra, tôi không nghĩ đó là ý hay."**
--   **Tại sao không mất nghĩa?** 
-    -   Chuỗi từ rườm rà ("thành thật mà nói", "hoàn toàn không thực sự...") bị loại bỏ, nhường chỗ cho lối diễn đạt trực diện. 
-    -   Thái độ e dè và ý định phủ định của nhân vật vẫn được giữ nguyên vẹn.
-
-Ví dụ 2:
--   **Gốc:** "I just wanted to make sure that you guys let me know when you get there safely."
--   **Dịch sát chữ:** "Tôi chỉ muốn đảm bảo rằng các bạn cho tôi biết khi nào các bạn đến nơi an toàn."
--   **Cô đọng:** **"Nhớ báo cho tôi khi các bạn đến nơi an toàn nhé."**
--   **Tại sao không mất nghĩa?** 
-    -   Khúc dạo đầu vòng vo *"I just wanted to make sure that..."* thực chất chỉ mang ý đồ "nhắn nhủ/nhắc nhở". 
-    -   Cấu trúc **"Nhớ... nhé"** trong tiếng Việt đã gánh vác xuất sắc toàn bộ ý đồ đó mà cắt giảm được tới 40% số lượng từ ngữ.
-
-**Hướng dẫn áp dụng**: Chỉ khi **thỏa mãn đồng thời** cả 4 điều kiện dưới đây thì mới được phép áp dụng cô đọng ý nghĩa trong bản dịch.
-1. Chỉ áp dụng với thể loại **KHÔNG PHẢI nội dung KHOA HỌC/CHÍNH LUẬN**.
-2. Chỉ áp dụng nếu index gốc tiếng Anh có độ dài trên 11 từ.
-3. Chỉ áp dụng với một index mà bản thân index đó đã trọn vẹn ý nghĩa & rõ ràng.
-4. Chỉ áp dụng nếu index tiếng Việt có số từ nhiều hơn index tiếng Anh tương ứng trên 20%.
 </translation_guidelines>
 
 <priority_hierarchy>
@@ -233,7 +203,6 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
                 *(Đánh giá: Chấp nhận dịch "your" thành dấu "..." để lấp đầy id 4, tuyệt đối bảo vệ ranh giới và nội dung của id 5. Bản dịch vẫn đảm bảo tính liền mạch, tự nhiên và quan trọng nhất là khớp 100% với timing của bản gốc).*				
 3. **Ưu tiên 3:** Dịch chính xác thuật ngữ chuyên ngành & chuyển đổi các đơn vị phù hợp với người Việt Nam.
 4. **Ưu tiên 4:** Mức độ tự nhiên & Văn nói (tính khẩu ngữ & sắc thái bản địa).
-5. **Ưu tiên 5:** Cô đọng nhưng không mất ý nghĩa.
 
 **RẤT QUAN TRỌNG:** 
 - Trong quá trình dịch phải **liên tục đối chiếu, kiểm tra** để **Bảo vệ Timing & Đồng bộ Âm - Chữ**. Đặc biệt với các chuỗi câu ngắn liên tiếp hoặc các hội thoại trao đổi giữa các nhân vật, bạn phải **tập trung cao độ để TRÁNH sai lệch index**.
@@ -350,20 +319,6 @@ Khi các quy tắc xung đột nhau, bạn sẽ thực hiện theo các ưu tiê
     - *=> Giải thích*:
         - **Semantic Bridging:** Cụm "It is not just about" thường bị AI dịch là "Nó không chỉ là về" (rất dở). AI ở đây đã hiểu bối cảnh khoa học và dùng **"Vấn đề không chỉ nằm ở..."**.
         - **Look-ahead:** AI nhận diện được chuỗi liệt kê 3 tầng. Dòng 2 dùng "tương tác lẫn nhau" để tạo nhịp nối, và dòng 3 dùng "ngay bên trong" để nhấn mạnh vị trí không gian mà dòng 2 đang nhắc tới. Việc thêm từ "môi trường" vào dòng 3 giúp câu văn khoa học trở nên đầy đặn, chuyên nghiệp hơn dù bản gốc không có từ "environment".
-
-### Nhóm 5: Thẻ Âm thanh & Mẫu câu YouTube
-1. **[Ngữ cảnh: Reaction/Hài hước]** EN: `"[Scoffs] That's cap, and you know it!"`
-    - *Bản Tồi*: `"[Cười nhạt] Đó là cái mũ, và bạn biết điều đó!"`
-    - **Bản Chuẩn**: `"[Cười khẩy] Xạo vừa thôi, ai mà chẳng biết!"`
-    - *=> Giải thích*: 
-        - **Thẻ âm thanh:** "[Scoffs]" không chỉ là cười, mà là cười khinh miệt/khẩy. 
-        - **Tiếng lóng:** "Cap" là tiếng lóng YouTube/Gen Z chỉ sự nói dối. Dịch là "cái mũ" là thảm họa. AI cần biết dùng từ "Xạo" hoặc "Chém gió" để khớp vibe.
-2. **[Ngữ cảnh: Vlog - Xử lý đa thẻ âm thanh]** EN: `"[Keyboard clicking] [Deep sigh] Okay, let's get into the drama."`
-    - *Bản Tồi*: `"[Tiếng gõ bàn phím] [Thở dài sâu] Được rồi, hãy đi vào bộ phim truyền hình."`
-    - **Bản Chuẩn**: `"[Tiếng gõ phím] [Thở dài] Được rồi, bắt đầu hóng biến thôi nào."`
-    - *=> Giải thích*: 
-        - **Bản địa hóa:** "Drama" trên YouTube không phải là phim truyền hình, mà là "biến", "phốt", "chuyện lùm xùm". 
-        - **Độ gọn:** "Thở dài sâu" nghe rất y khoa, chỉ cần "[Thở dài]" là đủ truyền tải cảm xúc trong phụ đề.
 </examples>
 
 <output>
