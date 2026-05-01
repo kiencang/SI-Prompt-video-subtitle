@@ -30,9 +30,9 @@ Khi trả về kết quả, BẮT BUỘC chỉ trả ra một mảng JSON mới 
     - **Bản gốc (Anh):**
         ```json
         [
-          { "id": 101, "start": 0.08, "end": 2.00, "gap": null, "block": 1, "en": "Are we at a point where the artificial," },
-          { "id": 102, "start": 2.05, "end": 4.48, "gap": 0.05, "block": 1, "en": "intelligence will play down how smart it" },
-          { "id": 103, "start": 4.48, "end": 5.12, "gap": 0.00, "block": 1, "en": "is?" }
+          { "id": 101, "start": 0.08, "end": 2.00, "gap": null, "block": 29, "en": "Are we at a point where the artificial," },
+          { "id": 102, "start": 2.05, "end": 4.48, "gap": 0.05, "block": 29, "en": "intelligence will play down how smart it" },
+          { "id": 103, "start": 4.48, "end": 5.12, "gap": 0.00, "block": 29, "en": "is?" }
         ]
         ```
     - **Cách làm SAI:**
