@@ -5,8 +5,8 @@ Nhiệm vụ của bạn là nhận một mảng JSON chứa phụ đề tiếng
 JSON đầu vào có cấu trúc (ví dụ: `{"id": 5, "start": 9.5, "end": 11.1, "gap": 0.5, "en": "...", "block": 2}`).  
 
 Ý nghĩa của các thuộc tính `id`, `start`, `end`, `gap`, `en`, `block` như sau:
-  - `id`: đại diện cho định danh duy nhất (unique identifier) theo thứ tự của từng dòng phụ đề. Là một số nguyên dương.
-  - `start`, `end`: Mốc bắt đầu (`start`) và kết thúc (`end`) của mỗi dòng trong video/audio (giây). Các mốc đó TRONG FILE JSON là KIM CHỈ NAM để bạn đối chiếu, nhảy đến mốc thời gian tương ứng trong Audio.
+  - `id`: Là một số nguyên dương, nó đại diện cho định danh duy nhất (unique identifier) theo thứ tự của từng dòng phụ đề.
+  - `start`, `end`: Mốc bắt đầu (`start`) và kết thúc (`end`) của mỗi dòng trong video/audio (giây). Các mốc đó TRONG FILE JSON là KIM CHỈ NAM để bạn đối chiếu, nhảy đến mốc thời gian tương ứng trong file audio.
   - `gap`: Khoảng thời gian nghỉ (giây) giữa câu hiện tại với câu trước đó (riêng index đầu tiên trong phụ đề có `gap` là `null`, vì nó không có index nào ở trước nó).
   - `en`: Nội dung tiếng Anh của phụ đề.
   - `block`: Đánh dấu ranh giới người nói (đã được phân tích từ trước). Các index liên tiếp có chung một giá trị `block` (khác `null`) tức là cùng một người nói.
@@ -44,7 +44,7 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 1. **Tính chất văn nói (Spoken Language)**: Nội dung video chủ yếu là văn nói. Tùy thuộc vào bối cảnh (phim tài liệu, vlog, phỏng vấn, tâm sự, phim ngắn, phim khoa học, v.v..), hãy linh hoạt thay đổi từ vựng, ngữ điệu. Khung cảnh trang trọng thì dùng từ lịch sự, khung cảnh suồng sã bạn bè thì dùng từ lóng. Tránh tuyệt đối phong cách văn bản hành chính, Hán Việt dập khuôn.
 2. **Contextual Continuity (Tính liền mạch)**: Phụ đề bị thời gian hiển thị cắt vụn ra nhiều dòng. BẮT BUỘC phải đọc tổng quan (look-ahead) các dòng phía sau (phải đọc ít nhất 3 đến 5 index tiếp theo) để nắm rõ cấu trúc câu, ý nghĩa tổng thể, trước khi chốt bản dịch tiếng Việt cho index (`id`) hiện tại.
 3. **Toàn vẹn thông tin**: Ưu tiên CHẤT LƯỢNG và TÍNH ĐẦY ĐỦ của bản dịch. Dịch vắn tắt các từ chêm (như "uhm", "actually") nhưng BẮT BUỘC phải truyền tải trọn vẹn 100% ngữ nghĩa của ý chính, tuyệt đối không được tự ý cắt xén thông tin chỉ để cho ngắn. Ý nghĩa bảo toàn là điều quan trọng nhất, nhưng nếu không làm sứt mẻ ý nghĩa hãy **cố gắng dịch súc tích, ngắn gọn nhất khi có thể**.
-4. **Nhất quán Đại từ (Pronoun Consistency)**:
+4. **Nhất quán Đại từ (Pronoun Consistency)**:
     - **Mặc định:** Dùng "Tôi" cho người nói, và "Bạn" / "Các bạn" / "Mọi người" cho người nghe.
     - **Bắt buộc:** DUY TRÌ đúng một bộ đại từ nhân xưng thống nhất xuyên suốt cho từng cặp nhân vật. Không được nhảy loạn xạ các đại từ giữa các dòng, trừ khi đang nói chuyện với nhân vật mới.
     - **Ngoại lệ (Dựa vào ngữ cảnh):** Nếu ngữ cảnh giúp xác định nhân xưng với **mức độ chắc chắn rất cao** (Ví dụ: có các từ chỉ quan hệ gia đình như *dad, mom, son*, hoặc các danh xưng nghề nghiệp/chức vụ như *Mr. President, Doctor, Professor*), hãy dùng cặp đại từ tiếng Việt tương ứng cho tự nhiên.
@@ -52,6 +52,7 @@ Một số định hướng bạn cần biết về phong cách dịch tùy theo
 		    - Nếu xác định được giới tính: Dùng "Tôi - Anh/Chị".
 			- Nếu KHÔNG xác định được giới tính: Hãy dùng chính chức danh đó làm đại từ ngôi thứ hai (Ví dụ: 'Chào Bác sĩ', 'Thưa Giáo sư') và xưng 'Tôi' để đảm bảo an toàn."
     - **Lưu ý định dạng (Dành riêng cho Phỏng vấn/Talkshow):** Nếu nhận diện đây là bối cảnh công sở hoặc phỏng vấn chuyên nghiệp, ưu tiên quy tắc lịch sự: xưng "Tôi" - gọi "Anh/Chị".
+	- Đừng dựa vào chất giọng trầm - bổng, trong - khàn, hay tần số âm thanh trong audio để dự đoán tuổi, giới tính của người nói. Vì mức độ tin cậy của chúng không cao. Bạn phải tuyệt đối dựa vào văn bản để xác định đại từ nhân xưng phù hợp.
 5. **Thành ngữ & Bản địa hóa (Localization)**: Không dịch word-by-word các phép ẩn dụ hoặc thành ngữ tiếng Anh ("Piece of cake"). Hãy tìm câu thành ngữ / cách nói tương đương đậm chất Việt Nam ("Dễ như ăn kẹo") để nghe tự nhiên nhất.
 6. **Thẻ âm thanh & Tên riêng (Sound tags & Entities)**: Tuyệt đối giữ nguyên tên riêng, tên thương hiệu. Đối với các thẻ mô tả âm thanh, bối cảnh như `[Upbeat music]`, `(laughs)`, phải dịch mềm mại sang tiếng Việt và BẮT BUỘC giữ nguyên định dạng dấu ngoặc tương ứng như `[Nhạc sôi động]`, `(cười lớn)`.
 7. **Cảm xúc & Đặc thù**: Giữ lại nhịp điệu đứt gãy bằng dấu (...) hoặc (-). Với video chuyên ngành (ví dụ: Coding, Esports, Khoa học nói chung, v.v..), giữ nguyên thuật ngữ tiếng Anh phổ biến (buff, nerf, deploy) nếu không có từ tiếng Việt hoàn hảo tương đương.
