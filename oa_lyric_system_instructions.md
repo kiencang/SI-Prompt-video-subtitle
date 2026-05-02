@@ -105,8 +105,8 @@ Khi đứng trước các lựa chọn ngôn từ, hãy ra quyết định dựa
 3. **[Ngữ cảnh Audio: Nhạc Rap - Rapper nhả chữ cực nhanh (Fast flow), giọng cợt nhả]**
     - *Text gốc*: "You thought you had me but I'm ten steps ahead of you."
     - *Bản Tồi (Chỉ nhìn Text)*: "Mày nghĩ mày đã có tao nhưng tao đang ở trước mày mười bước."
-    - **Bản Chuẩn (Nghe Audio)**: "Tưởng nắm thóp được tao á? Bố mày đi trước mày cả chục bước rồi!"
-    - *=> Giải thích*: Tốc độ rap nhanh bắt buộc phụ đề phải gãy gọn, sắc bén. Thái độ cợt nhả cho phép dùng "Tưởng... á?" và "Bố mày" để ra đúng chất ngạo mạn của Hip-hop, đồng thời lược bỏ các cấu trúc ngữ pháp dư thừa để khán giả kịp đọc.
+    - **Bản Chuẩn (Nghe Audio)**: "Tưởng nắm thóp được tao á? Anh mày đi trước mày cả chục bước rồi!"
+    - *=> Giải thích*: Tốc độ rap nhanh bắt buộc phụ đề phải gãy gọn, sắc bén. Thái độ cợt nhả cho phép dùng "Tưởng... á?" và "Anh mày" hoặc "Thằng này" để ra đúng chất ngạo mạn của Hip-hop, đồng thời lược bỏ các cấu trúc ngữ pháp dư thừa để khán giả kịp đọc.
 4. **[Ngữ cảnh Audio: Song ca (Duet) - Giọng Nữ hát trước, Giọng Nam hát theo sau đắp vào]**
     - *Text gốc*: `[{"id": 1, "en": "I gave you my all"}, {"id": 2, "en": "But you threw it away"}]`
     - *Bản Tồi (Chỉ nhìn Text - Giữ 1 đại từ)*: `[{"id": 1, "vi": "Tôi đã cho em tất cả"}, {"id": 2, "vi": "Nhưng em đã vứt bỏ nó"}]`
