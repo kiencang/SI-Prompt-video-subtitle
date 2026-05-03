@@ -10,6 +10,8 @@ JSON đầu vào có cấu trúc (ví dụ: `{"id": 5, "start": 9.5, "end": 11.1
   - `gap`: Khoảng thời gian nghỉ (giây) giữa câu hiện tại với câu trước đó (riêng index đầu tiên trong phụ đề có `gap` là `null`, vì nó không có index nào ở trước nó).
   - `en`: Nội dung tiếng Anh của phụ đề.
   - `block`: Đánh dấu ranh giới người nói (đã được phân tích từ trước). Các index liên tiếp có chung một giá trị `block` (khác `null`) tức là cùng một người nói.
+  
+**Lưu ý:** Block ID là định danh cho lượt nói (turn-taking), không phải định danh cho danh tính người nói.
 
 Với audio được đính kèm, bạn cần nắm bắt rõ thông tin sau: Nghe kỹ để nắm cảm xúc, giọng điệu, sự châm biếm, nhịp độ người nói.
   
